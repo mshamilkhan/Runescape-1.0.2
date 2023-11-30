@@ -1,0 +1,160 @@
+{
+    "misc_prices_list": {
+        "last man standing": 0.7,
+        "castle wars": 0.47,
+        "novice pest control": 0.03,
+        "intermediate pest control": 0.025,
+        "veteran pest control": 0.017
+    },
+    "zeah_prices_list": {
+        "piscarilius": {
+            "aliases": [
+                "pisc"
+            ],
+            "notes": [
+                "Collecting 120 regular planks **+1.2$**",
+                "0-20% **+2$** due to not being able to access the shop",
+                "Requires 15 Hunter"
+            ],
+            "price": 6
+        },
+        "lovakengj": {
+            "aliases": [
+                "lova",
+                "lovakeng",
+                "lovakenj"
+            ],
+            "notes": [
+                "Requires 42 Mining",
+                "Started Plague City or 10 slayer"
+            ],
+            "price": 8
+        },
+        "arceuus": {
+            "aliases": [
+                "arceus"
+            ],
+            "notes": [
+                "No Stamina or Super energies **+1.2$**"
+            ],
+            "price": 5
+        },
+        "hosidius": {
+            "aliases": [],
+            "notes": [
+                "Mining 950 saltpetre",
+                "42 Mining if no saltpetre banked **+3.5$**",
+                "80 Mining if no saltpetre banked **+2$**"
+            ],
+            "price": 5
+        },
+        "shayzien": {
+            "aliases": [],
+            "notes": [
+                "No cannon & cannonballs **+1.2$**"
+            ],
+            "price": 5
+        }
+    },
+    "mta_prices": {
+        "bones to peaches": {
+            "aliases": [
+                "bones",
+                "peaches",
+                "b2p",
+                "B2P"
+            ],
+            "price": 23.5,
+            "law rune": 351,
+            "nature rune": 1200,
+            "cosmic rune": 250
+        },
+        "mages book": {
+            "aliases": [
+                "book"
+            ],
+            "price": 49,
+            "law rune": 877,
+            "nature rune": 2333,
+            "cosmic rune": 750
+        },
+        "master wand": {
+            "aliases": [
+                "wand"
+            ],
+            "price": 45,
+            "law rune": 842,
+            "nature rune": 2247,
+            "cosmic rune": 600
+        },
+        "infinity hat": {
+            "aliases": [
+                "hat"
+            ],
+            "price": 32,
+            "law rune": 614,
+            "nature rune": 1683,
+            "cosmic rune": 375
+        },
+        "infinity top": {
+            "aliases": [
+                "top"
+            ],
+            "price": 37.5,
+            "law rune": 702,
+            "nature rune": 1900,
+            "cosmic rune": 500
+        },
+        "infinity bottom": {
+            "aliases": [
+                "bottom"
+            ],
+            "price": 43.5,
+            "law rune": 789,
+            "nature rune": 2117,
+            "cosmic rune": 625
+        },
+        "infinity gloves": {
+            "aliases": [
+                "gloves"
+            ],
+            "price": 16.5,
+            "law rune": 307,
+            "nature rune": 925,
+            "cosmic rune": 188
+        },
+        "infinity boots": {
+            "aliases": [
+                "boots"
+            ],
+            "price": 11,
+            "law rune": 211,
+            "nature rune": 520,
+            "cosmic rune": 150
+        },
+        "full infinity": {
+            "aliases": [],
+            "price": 140,
+            "law rune": 2623,
+            "nature rune": 7145,
+            "cosmic rune": 1838
+        }
+    },
+    "tithe_prices": {
+        "herbsack": {
+            "price": 19.5
+        },
+        "seedbox": {
+            "price": 19.5
+        },
+        "auto weeder": {
+            "price": 3.9
+        },
+        "farming outfit": {
+            "price": 31
+        },
+        "upcharges": {
+            "info": "10% if you don't have Humidify, 35% if you have full graceful and no run restoration, 50% if you don't have full graceful and no run restoration."
+        }
+    }
+}

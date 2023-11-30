@@ -1,0 +1,144 @@
+{
+    "diary_pricing_list": {
+        "ardougne": {
+            "easy": 2.8,
+            "easy iron notes": "__Easy__: Item gathering - **0.4$**",
+            "medium": 2.8,
+            "medium iron notes": "__Medium__: Item gathering - **0.8$**\n - This is assuming you already have Strawberry seed",
+            "hard": 2.8,
+            "hard iron notes": "__Hard__: Item gathering - **0.8$**\n - This is assuming you already have Palm tree/Poison ivy/Shield left half and Dragonstone",
+            "elite": 3.6,
+            "elite notes": "Notes:\n__Elite__: 800k NMZ points required for salve amulet imbued",
+            "elite iron notes": "__Elite__: Item gathering - **1.2$**\n - This is assuming you already have Torstol seed/Runite bar and NMZ points"
+        },
+        "desert": {
+            "easy": 2.4,
+            "easy iron notes": "__Easy__: Item gathering - **0.8$**",
+            "medium": 2.8,
+            "medium iron notes": "__Medium__: Item gathering - **0.8$**\n - This is assuming you already have Grimy/clean Harralander",
+            "hard": 2.8,
+            "hard notes": "Notes:\n__Hard__: KQ kill and Slayer helm required",
+            "hard iron notes": "__Hard__: Item gathering - **0.8$**",
+            "elite": 2,
+            "elite notes": "Notes:\n__Elite__: KQ head required",
+            "elite iron notes": "__Elite__: Item gathering - **1.2$**\n - This is assuming you already have Dragon darts and KQ head"
+        },
+        "falador": {
+            "easy": 2.4,
+            "easy iron notes": "__Easy__: Item gathering - **1.2$**",
+            "medium": 2,
+            "medium iron notes": "__Medium__: Item gathering - **1.2$**\n - This is assuming you already have Crystal key/Watermeon seed/Willow brances",
+            "hard": 2.8,
+            "hard notes": "Notes:\n__Hard__: Full prospector required **44$**, 180 nuggets needed.",
+            "hard iron notes": "__Hard__: Item gathering - **0.8$**\n - This is assuming you already have full prospector set",
+            "elite": 1.6,
+            "elite notes": "Notes:\n__Elite__: Black Knight kills - **0.01$/kill**",
+            "elite iron notes": "__Elite__: Require all items"
+        },
+        "fremennik": {
+            "easy": 2,
+            "easy iron notes": "__Easy__: Item gathering - **0.4$**",
+            "medium": 4.8,
+            "medium iron notes": "__Medium__: Item gathering - **0.8$**",
+            "hard": 2.8,
+            "hard iron notes": "__Hard__: Item gathering - **0.8$**\n - This is assuming you already have Grimy/clean cadantine",
+            "elite": 1.2,
+            "elite notes": "Notes:\n__Elite__: DKS kills + GWD kills required, price depends on gear/stats",
+            "elite iron notes": "__Elite__: Item gathering - **0.4$**\n - This is assuming you already have Dragonstone"
+        },
+        "kandarin": {
+            "easy": 2,
+            "easy iron notes": "__Easy__: Item gathering - **0.8$**",
+            "medium": 2.8,
+            "medium iron notes": "__Medium__: Item gathering - **2$**\n - This is assuming you already have Grimy/clean Irit",
+            "hard": 3.2,
+            "hard notes": "Notes:\n__Hard__:  Granite body required - **5.6$**",
+            "hard iron notes": "__Hard__: Item gathering - **1.2$**\n - This is assuming you already have Adamantine bar/ore",
+            "elite": 2,
+            "elite notes": "Notes:\n__Elite__: Level 5 all roles required - **80$**",
+            "elite iron notes": "__Elite__: Item gathering - **1.2$**\n - This is assuming you already have Dwarf seed/Runite bar and Chewed bones"
+        },
+        "karamja": {
+            "easy": 2.4,
+            "easy iron notes": "__Easy__: Item gathering - **0.4$**",
+            "medium": 4.8,
+            "medium iron notes": "__Medium__: Item gathering - **1.6$**\n - This is assuming you already have Gout tuber/any fruit seed or sapling",
+            "hard": 2.8,
+            "hard iron notes": "__Hard__: Item gathering - **1.2$**\n - This is assuming you already have Nature rune talisman or access to abyss",
+            "elite": 1.2,
+            "elite notes": "Notes:\n__Elite__: Fire cape required, price depends on gear/stats",
+            "elite iron notes": "__Elite__: Require all items"
+        },
+        "kourend & kebos": {
+            "easy": 2.4,
+            "easy iron notes": "__Easy__: Item gathering - **1.2$**\n - This is assuming you already have Tarromin/limpwurt roots",
+            "medium": 4,
+            "medium iron notes": "__Medium__: Item gathering - **1.6$**",
+            "hard": 2.8,
+            "hard notes": "Notes:\n__Hard__: Architectural Alliance [assumes you have all zeah favours done] - **0.8$**",
+            "hard iron notes": "__Hard__: Item gathering - **0.8$**\n - This is assuming you already have Xeric's talisman",
+            "elite": 1.2,
+            "elite notes": "Notes:\n__Elite__: Skotizo and Cox kill, price depends on stats/gear",
+            "elite iron notes": "__Elite__: Item gathering - **0.4$**\n - This is assuming you already have Celastrus sapling/Dark totem"
+        },
+        "lumbridge & draynor": {
+            "easy": 2.4,
+            "easy iron notes": "__Easy__: Item gathering - **0.4$**\n - This is assuming you already have access to the abyss",
+            "medium": 3.6,
+            "medium iron notes": "__Medium__: Item gathering - **1.6$**\n - This is assuming you already have access to the abyss",
+            "hard": 3.2,
+            "hard notes": "Notes:\n__Hard__: Bones to peaches required - **24$**",
+            "hard iron notes": "__Hard__: Item gathering - **1.2$**\n - This is assuming you already have Belladona seed and access to the abyss",
+            "elite": 1.6,
+            "elite iron notes": "__Elite__: Item gathering - **0.4$**\n - This is assuming you already have Adamant ore/bar and access to the abyss"
+        },
+        "morytania": {
+            "easy": 2.4,
+            "easy iron notes": "__Easy__: Item gathering - **1.2$**\n - This is assuming you already have a Watermelon",
+            "medium": 5.2,
+            "medium iron notes": "__Medium__: Item gathering - **0.8$**",
+            "hard": 3.2,
+            "hard iron notes": "__Hard__: Item gathering - **1.2$**\n - This is assuming you already have Watermelon seeds/Mushroom spore",
+            "elite": 1.2,
+            "elite notes": "Notes:\n__Elite__: Barrows run required, price depends on stats/gear",
+            "elite iron notes": "__Elite__: Item gathering - **2$**\n - This is assuming you already have full Barrows set"
+        },
+        "varrock": {
+            "easy": 3.2,
+            "easy iron notes": "__Easy__: Item gathering - **0.8$**\n - This is assuming you already have access to the abyss",
+            "medium": 4,
+            "medium iron notes": "__Medium__: Item gathering - **1.2$**",
+            "hard": 3.2,
+            "hard notes": "Notes:\n__Hard__: 153 kudos required",
+            "hard iron notes": "__Hard__: Item gathering - **0.8$**\n - This is assuming you already have Yew seed/sapling and skull sceptre",
+            "elite": 1.6,
+            "elite iron notes": "__Elite__: Item gathering - **1.2$**\n - This is assuming you already have Watermelon/Strawberry/Runite bar and supplies to make a super combat potion."
+        },
+        "western provinces": {
+            "easy": 2.8,
+            "easy notes": "Notes:\n__Easy__: 30 Chompy kills required, price varies depending on stats/gear",
+            "easy iron notes": "__Easy__: Item gathering - **0.4$**",
+            "medium": 5.2,
+            "medium notes": "Notes:\n __Medium__: 125 Chompy kills required, price varies depending on stats/gear",
+            "medium iron notes": "__Medium__: Item gathering - **0.8$**",
+            "hard": 4,
+            "hard notes": "Notes:\n__Hard__: 300 Chompy kills required & Zulrah kill, price varies depending on stats/gear",
+            "hard iron notes": "__Hard__: Item gathering - **2$**\n - This is assuming you already have Palm seed/sapling",
+            "elite": 1.2,
+            "elite notes": "Notes:\n __Elite__: Full void set and 1k Chompy kills required, price depends on stats/gear",
+            "elite iron notes": "__Elite__: Item gathering - **0.4$**\n - This is assuming you already have Full void set/Magic seed or sapling and 25 coconuts"
+        },
+        "wilderness": {
+            "easy": 2.8,
+            "easy iron notes": "__Easy__: Item gathering - **0.4$**\n - This is assuming you already have access to the abyss",
+            "medium": 4,
+            "medium iron notes": "__Medium__: Item gathering - **1.6$**\n - This is assuming you already have Rune axe or better",
+            "hard": 4,
+            "hard notes": "Notes:\n__Hard__: Crazy archaeologist, Chaos Fanatic & Scorpia, price depends on gear/stats",
+            "hard iron notes": "__Hard__: Item gathering - **1.2$**\n - This is assuming you already have Adamantine bar/ore",
+            "elite": 2.8,
+            "elite notes": "Notes:\n__Elite__: Kill Callisto, Venenatis & Vet'ion, price depends on gear/stats",
+            "elite iron notes": "__Elite__: Item gathering - **1.2$**"
+        }
+    }
+}

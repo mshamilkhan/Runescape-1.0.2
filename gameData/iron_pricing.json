@@ -1,0 +1,171 @@
+{
+    "iron_prices_list": {
+        "mort myre fungus": {
+            "hard morytania diary and fairy ring in poh": 0.0032,
+            "with diary no fairy ring": 0.006,
+            "without diary but fairy ring": 0.006,
+            "without diary and fairy ring": 0.011
+        },
+        "slayer tasks": {
+            "Per Task": 0.3,
+            "notes": "\n Kalphites unblocked = +10% \n No cannon = +50%"
+        },
+        "red spider eggs": {
+            "sardines banked & medium ardougne diary": 0.005,
+            "without sardines banked & medium ardougne diary": 0.0055
+        },
+        "blue dragon scales": {
+            "myths guild unlocked": 0.0056,
+            "without myths guild and 70 agility": 0.006
+        },
+        "snape grass": {
+            "with Fremmenik Easy": 0.0072,
+            "notes": "Fremmenik Easy completed"
+        },
+        "runs": {
+            "Herb Run": 0.8,
+            "Tree Run": 0.8,
+            "Birdhouse Run": 0.25,
+            "Seaweed Run": 0.25,
+            "notes": "Assuming you have all teleports."
+        },
+        "cannon balls": {
+            "Steel Bar": 0.002
+        },
+        "wines of zamorak": {
+            "hard wilderness diary": 0.01,
+            "without diary": 0.016
+        },
+        "unicorn horns": {
+            "cowhides banked": 0.008,
+            "without cowhides banked": 0.016
+        },
+        "anglerfish": {
+            "82-91 fishing": 0.016,
+            "92-99 fishing": 0.014,
+            "notes": "100% Piscarilius favor"
+        },
+        "blood shard": {
+            "Killing Vyrewatch": 0.02,
+            "Pickpocketing Vyrewatch": 0.012,
+            "notes": "Assuming decent gear and stats"
+        },
+        "salt": {
+            "Basalt": 0.0048,
+            "Urt/Te/efh": 0.0012
+        },
+        "pyramid plunder": {
+            "Chest": 0.034
+        },
+        "arceuus library": {
+            "No Graceful & staminas": 0.096,
+            "Graceful & no staminas": 0.088,
+            "Graceful & staminas": 0.064
+        },
+        "molten glass": {
+            "making glass per seaweed": 0.004,
+            "blowing glass": 0.0012,
+            "notes": "Assuming lunar spellbook & 77 magic for Superglass Make"
+        },
+        "karambwans": {
+            "zanaris method 65-80 fishing": 0.004,
+            "zanaris method 80-90 fishing": 0.0034,
+            "zanaris method 90-99 fishing": 0.003,
+            "POH method 65-80 fishing": 0.0024,
+            "POH method 80-90 fishing": 0.0022,
+            "POH method 90-99 fishing": 0.002,
+            "notes": "Tai Bwo Wannai Trio required"
+        },
+        "sharks": {
+            "82-90 fishing": 0.0064,
+            "90-95 fishing": 0.0052,
+            "95-99 fishing": 0.0044,
+            "notes": "Angler Outfit and 82 fishing required"
+        },
+        "buckets of sand": {
+            "quarry": 0.0016,
+            "notes": "\n Do you have humidify?\n - **10%** upcharge if you don't have it.\n\n Do you have medium varrock diary completed?\n- **10%** upcharge if you don't have it"
+        },
+        "bars": {
+            "steel bars": 0.0012,
+            "gold bars": 0.0014,
+            "mithril bars": 0.0018,
+            "adamantite bars": 0.0026,
+            "runite bars": 0.0032,
+            "notes": "Price will be different if you do not own a coal bag and/or stamina potions"
+        },
+        "volcanic ash": {
+            "22-36 mining": 0.0032,
+            "36-52 mining": 0.002,
+            "52-67 mining": 0.0014,
+            "67-82 miningg": 0.0012,
+            "82-97 mining": 0.001,
+            "97-99 mining": 0.0008,
+            "notes": "Best possible pickaxe"
+        },
+        "ores": {
+            "gold": 0.0014,
+            "iron": 0.0014,
+            "mithril": 0.0014,
+            "coal": 0.0014,
+            "coal with coal bag": 0.00092,
+            "notes": "This prices include us buying from blast furnace. Price will be different if you do not own a coal bag and/or stamina potions"
+        },
+        "implings": {
+            "eclectic impling": 0.026,
+            "dragon impling": 3.2,
+            "notes": "Dream Mentor needs to be completed if you don't have jars"
+        },
+        "planks": {
+            "with logs banked": 0.0012,
+            "without oak logs banked": 0.0036,
+            "without teak logs banked": 0.004,
+            "without mahogany logs banked": 0.0056
+        },
+        "master farmers xp": {
+            "with seedbox & 99 thieving": 0.000004,
+            "without seedbox but 99 thieving": 0.000048,
+            "notes": "Below 99 available upon request"
+        },
+        "myth cape racks xp": {
+            "": 0.0000024,
+            "notes": "Dragon Slayer 2 Completion Required"
+        },
+        "dragons": {
+            "green dragons": 0.048,
+            "blue dragons (requires 70 agility)": 0.08,
+            "notes": "Price will vary depending on gear/stats/supplies"
+        },
+        "agility pyramid": {
+            "30-50 agility": 0.34,
+            "50-75 agility": 0.25,
+            "75+ agility": 0.2,
+            "notes": "\n Do you have humidify?\n - **10%** upcharge if you don't have it."
+        },
+        "daeyalt essence": {
+            "": 0.0005
+        },
+        "mahogany homes xp": {
+            "with plank sack mahogany planks": 0.000036,
+            "with plank sack teak planks": 0.000046,
+            "without plank sack mahogany planks": 0.000036,
+            "without plank sack teak plank": 0.00005,
+            "notes": "\n- **15%** upcharge if on regular spell book and no tabs (unless 96 magic)\n\n - **10%** if no access to lunar isle bank, Xeric talisman honor or large amount of ring of dueling."
+        },
+        "stamina potions": {
+            "ironman": 0.02,
+            "hardcore ironman": 0.024,
+            "notes": "__<#806631035890434099>__"
+        },
+        "highalch": {
+            "high alchemy": 0.00036,
+            "high alchemy with agility": 0.00056
+        },
+        "chins2": {
+            "black chins": 0.014,
+            "red chins with above 80 Hunter": 0.01,
+            "red chins with below 80 hunter": 0.0124,
+            "notes": "Red Chins are on Private Area only."
+        }
+    }
+}

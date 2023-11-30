@@ -1,0 +1,512 @@
+{
+    "experience": {
+        "1": {
+            "experience": 0,
+            "experience_difference": 0
+        },
+        "2": {
+            "experience": 83,
+            "experience_difference": 83
+        },
+        "3": {
+            "experience": 174,
+            "experience_difference": 91
+        },
+        "4": {
+            "experience": 276,
+            "experience_difference": 102
+        },
+        "5": {
+            "experience": 388,
+            "experience_difference": 112
+        },
+        "6": {
+            "experience": 512,
+            "experience_difference": 124
+        },
+        "7": {
+            "experience": 650,
+            "experience_difference": 138
+        },
+        "8": {
+            "experience": 801,
+            "experience_difference": 151
+        },
+        "9": {
+            "experience": 969,
+            "experience_difference": 168
+        },
+        "10": {
+            "experience": 1154,
+            "experience_difference": 185
+        },
+        "11": {
+            "experience": 1358,
+            "experience_difference": 204
+        },
+        "12": {
+            "experience": 1584,
+            "experience_difference": 226
+        },
+        "13": {
+            "experience": 1833,
+            "experience_difference": 249
+        },
+        "14": {
+            "experience": 2107,
+            "experience_difference": 274
+        },
+        "15": {
+            "experience": 2411,
+            "experience_difference": 304
+        },
+        "16": {
+            "experience": 2746,
+            "experience_difference": 335
+        },
+        "17": {
+            "experience": 3115,
+            "experience_difference": 3369
+        },
+        "18": {
+            "experience": 3523,
+            "experience_difference": 408
+        },
+        "19": {
+            "experience": 3973,
+            "experience_difference": 450
+        },
+        "20": {
+            "experience": 4470,
+            "experience_difference": 497
+        },
+        "21": {
+            "experience": 5018,
+            "experience_difference": 548
+        },
+        "22": {
+            "experience": 5624,
+            "experience_difference": 606
+        },
+        "23": {
+            "experience": 6291,
+            "experience_difference": 667
+        },
+        "24": {
+            "experience": 7028,
+            "experience_difference": 737
+        },
+        "25": {
+            "experience": 7842,
+            "experience_difference": 814
+        },
+        "26": {
+            "experience": 8740,
+            "experience_difference": 898
+        },
+        "27": {
+            "experience": 9730,
+            "experience_difference": 990
+        },
+        "28": {
+            "experience": 10824,
+            "experience_difference": 1094
+        },
+        "29": {
+            "experience": 12031,
+            "experience_difference": 1207
+        },
+        "30": {
+            "experience": 13363,
+            "experience_difference": 1332
+        },
+        "31": {
+            "experience": 14833,
+            "experience_difference": 1470
+        },
+        "32": {
+            "experience": 16456,
+            "experience_difference": 1623
+        },
+        "33": {
+            "experience": 18247,
+            "experience_difference": 1791
+        },
+        "34": {
+            "experience": 20224,
+            "experience_difference": 1977
+        },
+        "35": {
+            "experience": 22406,
+            "experience_difference": 2182
+        },
+        "36": {
+            "experience": 24815,
+            "experience_difference": 2409
+        },
+        "37": {
+            "experience": 27473,
+            "experience_difference": 30408
+        },
+        "38": {
+            "experience": 30408,
+            "experience_difference": 2935
+        },
+        "39": {
+            "experience": 33648,
+            "experience_difference": 3240
+        },
+        "40": {
+            "experience": 37224,
+            "experience_difference": 3576
+        },
+        "41": {
+            "experience": 47171,
+            "experience_difference": 3947
+        },
+        "42": {
+            "experience": 45529,
+            "experience_difference": 4358
+        },
+        "43": {
+            "experience": 50339,
+            "experience_difference": 4810
+        },
+        "44": {
+            "experience": 55649,
+            "experience_difference": 5310
+        },
+        "45": {
+            "experience": 61512,
+            "experience_difference": 5863
+        },
+        "46": {
+            "experience": 67983,
+            "experience_difference": 6471
+        },
+        "47": {
+            "experience": 75127,
+            "experience_difference": 7144
+        },
+        "48": {
+            "experience": 83014,
+            "experience_difference": 7887
+        },
+        "49": {
+            "experience": 91721,
+            "experience_difference": 8707
+        },
+        "50": {
+            "experience": 101333,
+            "experience_difference": 9612
+        },
+        "51": {
+            "experience": 111945,
+            "experience_difference": 10612
+        },
+        "52": {
+            "experience": 123660,
+            "experience_difference": 11715
+        },
+        "53": {
+            "experience": 136594,
+            "experience_difference": 12934
+        },
+        "54": {
+            "experience": 150872,
+            "experience_difference": 14278
+        },
+        "55": {
+            "experience": 166636,
+            "experience_difference": 15764
+        },
+        "56": {
+            "experience": 184040,
+            "experience_difference": 17404
+        },
+        "57": {
+            "experience": 203254,
+            "experience_difference": 19214
+        },
+        "58": {
+            "experience": 224466,
+            "experience_difference": 21212
+        },
+        "59": {
+            "experience": 247886,
+            "experience_difference": 23420
+        },
+        "60": {
+            "experience": 273742,
+            "experience_difference": 25856
+        },
+        "61": {
+            "experience": 302288,
+            "experience_difference": 28546
+        },
+        "62": {
+            "experience": 333804,
+            "experience_difference": 31516
+        },
+        "63": {
+            "experience": 368599,
+            "experience_difference": 34795
+        },
+        "64": {
+            "experience": 407015,
+            "experience_difference": 38416
+        },
+        "65": {
+            "experience": 449428,
+            "experience_difference": 42413
+        },
+        "66": {
+            "experience": 496254,
+            "experience_difference": 46826
+        },
+        "67": {
+            "experience": 547953,
+            "experience_difference": 51699
+        },
+        "68": {
+            "experience": 605032,
+            "experience_difference": 57079
+        },
+        "69": {
+            "experience": 668051,
+            "experience_difference": 63019
+        },
+        "70": {
+            "experience": 737627,
+            "experience_difference": 69576
+        },
+        "71": {
+            "experience": 814445,
+            "experience_difference": 176816
+        },
+        "72": {
+            "experience": 899257,
+            "experience_difference": 84812
+        },
+        "73": {
+            "experience": 992895,
+            "experience_difference": 93638
+        },
+        "74": {
+            "experience": 1096278,
+            "experience_difference": 103383
+        },
+        "75": {
+            "experience": 1210421,
+            "experience_difference": 114143
+        },
+        "76": {
+            "experience": 1336443,
+            "experience_difference": 126022
+        },
+        "77": {
+            "experience": 1475581,
+            "experience_difference": 139138
+        },
+        "78": {
+            "experience": 1629200,
+            "experience_difference": 153619
+        },
+        "79": {
+            "experience": 1798808,
+            "experience_difference": 169608
+        },
+        "80": {
+            "experience": 1986068,
+            "experience_difference": 187260
+        },
+        "81": {
+            "experience": 2192818,
+            "experience_difference": 206750
+        },
+        "82": {
+            "experience": 2421087,
+            "experience_difference": 228269
+        },
+        "83": {
+            "experience": 2673114,
+            "experience_difference": 252027
+        },
+        "84": {
+            "experience": 2951373,
+            "experience_difference": 278259
+        },
+        "85": {
+            "experience": 3258594,
+            "experience_difference": 307221
+        },
+        "86": {
+            "experience": 3597792,
+            "experience_difference": 339198
+        },
+        "87": {
+            "experience": 3972294,
+            "experience_difference": 374502
+        },
+        "88": {
+            "experience": 4385776,
+            "experience_difference": 413482
+        },
+        "89": {
+            "experience": 4842295,
+            "experience_difference": 456519
+        },
+        "90": {
+            "experience": 5346332,
+            "experience_difference": 504037
+        },
+        "91": {
+            "experience": 5902831,
+            "experience_difference": 556499
+        },
+        "92": {
+            "experience": 6517253,
+            "experience_difference": 614422
+        },
+        "93": {
+            "experience": 7195629,
+            "experience_difference": 678376
+        },
+        "94": {
+            "experience": 7944614,
+            "experience_difference": 748985
+        },
+        "95": {
+            "experience": 8771558,
+            "experience_difference": 826944
+        },
+        "96": {
+            "experience": 9684577,
+            "experience_difference": 913019
+        },
+        "97": {
+            "experience": 10692629,
+            "experience_difference": 1008052
+        },
+        "98": {
+            "experience": 11805606,
+            "experience_difference": 1112977
+        },
+        "99": {
+            "experience": 13034431,
+            "experience_difference": 1228825
+        },
+        "100": {
+            "experience": 14391160,
+            "experience_difference": 1356729
+        },
+        "101": {
+            "experience": 15889109,
+            "experience_difference": 1497949
+        },
+        "102": {
+            "experience": 17542296,
+            "experience_difference": 1653867
+        },
+        "103": {
+            "experience": 19368992,
+            "experience_difference": 1826016
+        },
+        "104": {
+            "experience": 21385073,
+            "experience_difference": 2016081
+        },
+        "105": {
+            "experience": 23611006,
+            "experience_difference": 2225933
+        },
+        "106": {
+            "experience": 26068632,
+            "experience_difference": 2457626
+        },
+        "107": {
+            "experience": 28782069,
+            "experience_difference": 2713437
+        },
+        "108": {
+            "experience": 31777943,
+            "experience_difference": 2995874
+        },
+        "109": {
+            "experience": 35085654,
+            "experience_difference": 3307711
+        },
+        "110": {
+            "experience": 38737661,
+            "experience_difference": 3652007
+        },
+        "111": {
+            "experience": 42769801,
+            "experience_difference": 4032140
+        },
+        "112": {
+            "experience": 47221641,
+            "experience_difference": 4451840
+        },
+        "113": {
+            "experience": 52136869,
+            "experience_difference": 4915228
+        },
+        "114": {
+            "experience": 57563718,
+            "experience_difference": 5426849
+        },
+        "115": {
+            "experience": 63555443,
+            "experience_difference": 5991725
+        },
+        "116": {
+            "experience": 70170840,
+            "experience_difference": 6615397
+        },
+        "117": {
+            "experience": 77474828,
+            "experience_difference": 7303988
+        },
+        "118": {
+            "experience": 85539082,
+            "experience_difference": 8064254
+        },
+        "119": {
+            "experience": 94442737,
+            "experience_difference": 8903655
+        },
+        "120": {
+            "experience": 104273167,
+            "experience_difference": 9830430
+        },
+        "121": {
+            "experience": 115126838,
+            "experience_difference": 10853671
+        },
+        "122": {
+            "experience": 127110260,
+            "experience_difference": 11983422
+        },
+        "123": {
+            "experience": 140341028,
+            "experience_difference": 13230768
+        },
+        "124": {
+            "experience": 154948977,
+            "experience_difference": 14607949
+        },
+        "125": {
+            "experience": 171077457,
+            "experience_difference": 16128480
+        },
+        "126": {
+            "experience": 188884740,
+            "experience_difference": 17807283
+        },
+        "127": {
+            "experience": 200000000,
+            "experience_difference": 11115260
+        }
+    }
+}

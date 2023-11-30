@@ -1,0 +1,4670 @@
+{
+    "quest": {
+        "black knight's fortress": {
+            "name": "Black Knight's Fortress",
+            "price": 0.70,
+            "ironnotes": {
+                "Item gathering": 0.40,
+                "No Staminas or Super energies": 0.40
+            },
+            "aliases": [
+                "black knights fortress",
+                "black knights",
+                "black knight fortress",
+                "black knight"
+            ]
+        },
+        "cook's assistant": {
+            "name": "Cook's Assistant",
+            "price": 0.6,
+            "ironnotes": {
+                "Item gathering": 0.40
+            },
+            "aliases": [
+                "cooks assistant",
+                "cook assistant"
+            ]
+        },
+        "corsair curse": {
+            "name": "Corsair Curse",
+            "price": 1,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "corsair",
+                "corsair curse",
+                "corsairs curse",
+                "corsairs curse",
+                "corsair's curse",
+                "corsair's curse"
+            ]
+        },
+        "demon slayer": {
+            "name": "Demon Slayer",
+            "price": 1,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "demon slay"
+            ]
+        },
+        "doric's quest": {
+            "name": "Doric's Quest",
+            "price": 0.6,
+            "ironnotes": {
+                "Item gathering": 0.4
+            },
+            "aliases": [
+                "doric quest",
+                "doric's",
+                "dorics",
+                "doric"
+            ]
+        },
+        "dragon slayer": {
+            "name": "Dragon Slayer",
+            "price": 2,
+            "ironnotes": {
+                "No Staminas or Super energies": 1.35,
+                "HCIM": 0.8
+            },
+            "aliases": [
+                "dragon slayer i",
+                "dragon slayer 1",
+                "dragon slayer one",
+                "dragon slayer",
+                "dragon slayer i",
+                "dragon slayer 1",
+                "dragon slayer one",
+                "dragon's slayer",
+                "dragon slay",
+                "drag slayer",
+                "drag slay",
+                "ds1"
+            ]
+        },
+        "ernest the chicken": {
+            "name": "Ernest the Chicken",
+            "price": 1,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.4
+            },
+            "aliases": [
+                "ernest"
+            ]
+        },
+        "goblin diplomacy": {
+            "name": "Goblin Diplomacy",
+            "price": 0.6,
+            "ironnotes": {
+                "Item gathering": 0.4
+            },
+            "aliases": [
+                "goblin diplom",
+                "goblin diplo",
+                "goblin dip",
+                "gob diplom",
+                "gob diplo",
+                "gob dip"
+            ]
+        },
+        "imp catcher": {
+            "name": "Imp Catcher",
+            "price": 0.6,
+            "ironnotes": {
+                "Item gathering": 2,
+                "No Staminas or Super energies": 0.4
+            },
+            "aliases": [
+                "imp catch",
+                "imp"
+            ]
+        },
+        "knight's sword": {
+            "name": "Knight's Sword",
+            "price": 1,
+            "ironnotes": {
+                "Item gathering": 0.4,
+                "No Staminas or Super energies": 1.2
+            },
+            "aliases": [
+                "knight's sword",
+                "knights sword",
+                "knights sword",
+                "knight sword",
+                "knight sword"
+            ]
+        },
+        "misthalin mystery": {
+            "name": "Misthalin Mystery",
+            "price": 1,
+            "ironnotes": {},
+            "aliases": [
+                "misthalin",
+                "mystery"
+            ]
+        },
+        "pirate's treasure": {
+            "name": "Pirate's Treasure",
+            "price": 0.6,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "pirate's treasure",
+                "pirates treasure",
+                "pirates treasure",
+                "pirate treasure",
+                "pirate treasure"
+            ]
+        },
+        "prince ali rescue": {
+            "name": "Prince Ali Rescue",
+            "price": 1,
+            "ironnotes": {
+                "Item gathering": 0.8,
+                "No Staminas or Super energies": 1.2
+            },
+            "aliases": [
+                "prince ali",
+                "prince ali rescue"
+            ]
+        },
+        "restless ghost": {
+            "name": "Restless Ghost",
+            "price": 0.8,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "restless ghost"
+            ]
+        },
+        "romeo & juliet": {
+            "name": "Romeo & Juliet",
+            "price": 1,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "romeo and juliet",
+                "romeo n juliet",
+                "romeo",
+                "juliet"
+            ]
+        },
+        "rune mysteries": {
+            "name": "Rune Mysteries",
+            "price": 1.2,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "mysteries"
+            ]
+        },
+        "below ice mountain": {
+            "name": "Below Ice Mountain",
+            "price": 1.4,
+            "ironnotes": {},
+            "aliases": [
+                "bellow ice mountain",
+                "below ice mount"
+            ]
+        },
+        "sheep shearer": {
+            "name": "Sheep Shearer",
+            "price": 0.6,
+            "ironnotes": {
+                "Item gathering": 0.4
+            },
+            "aliases": [
+                "sheep shearer",
+                "sheep shear",
+                "sheep"
+            ]
+        },
+        "shield of arrav": {
+            "name": "Shield of Arrav",
+            "price": 1.2,
+            "ironnotes": {},
+            "aliases": [
+                "shield of arrav",
+                "arrav"
+            ]
+        },
+        "vampyre slayer": {
+            "name": "Vampyre Slayer",
+            "price": 0.6,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.4
+            },
+            "aliases": [
+                "vampyre slayer",
+                "vampire slayer",
+                "vampire slayer",
+                "vampyre",
+                "vampire"
+            ]
+        },
+        "witch's potion": {
+            "name": "Witch's Potion",
+            "price": 0.6,
+            "notes": {},
+            "ironnotes": {},
+            "aliases": [
+                "witch's potion",
+                "witchs potion",
+                "witchs potion",
+                "witch potion",
+                "witch potion"
+            ]
+        },
+        "x marks the spot": {
+            "name": "X Marks the Spot",
+            "price": 0.6,
+            "ironnotes": {
+                "No Staminas or Super energies": 1
+            },
+            "aliases": [
+                "x marks spot",
+                "x marks",
+                "x - marks the spot",
+                "x - marks spot",
+                "x - marks",
+                "x-marks the spot",
+                "x-marks spot",
+                "x-marks",
+                "x- marks the spot",
+                "x- marks spot",
+                "x- marks",
+                "x -marks the spot",
+                "x -marks spot",
+                "x -marks"
+            ]
+        },
+        "animal magnetism": {
+            "name": "Animal Magnetism",
+            "price": 1.55,
+            "ironnotes": {
+                "Item gathering (does not include mithril axe)": 1.6,
+                "No Staminas or Super energies": 1.2,
+                "If mithril axe is required": 1.6
+            },
+            "aliases": [
+                "animal mag",
+                "magnetism",
+                "animal"
+            ]
+        },
+        "another slice of ham": {
+            "name": "Another Slice of H.A.M.",
+            "price": 1.6,
+            "ironnotes": {
+                "No Staminas or Super energies": 1.2
+            },
+            "aliases": [
+                "another slice of h.a.m",
+                "slice of h.a.m.",
+                "slice of h.a.m",
+                "slice of ham",
+                "another slice"
+            ]
+        },
+        "ascent of arceuus": {
+            "name": "Ascent of Arceuus",
+            "price": 2,
+            "notes": {
+                "No Xeric's or Battlefront Teleports": 2
+            },
+            "ironnotes": {
+                "No Staminas or Super energies": 1.2
+            },
+            "aliases": [
+                "ascent of arceuus",
+                "ascent of arceus",
+                "ascent of arceus",
+                "ascent of arceeus",
+                "ascent of arceeus",
+                "ascent of arcus",
+                "ascent of arcus",
+                "ascent of acreuss"
+            ]
+        },
+        "between a rock": {
+            "name": "Between a Rock...",
+            "price": 3.2,
+            "ironnotes": {
+                "Item gathering": 0.4,
+                "No Staminas or Super energies": 1.6
+            },
+            "aliases": [
+                "between a rock",
+                "between a rock.",
+                "between a rock..",
+                "between a rock...."
+            ]
+        },
+        "big chompy bird hunting": {
+            "name": "Big Chompy Bird Hunting",
+            "price": 1.6,
+            "ironnotes": {
+                "Item gathering": 2,
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "big chompy bird hunt",
+                "big chompy birds hunting",
+                "big chompy birds hunt",
+                "chompy bird hunting",
+                "big chompy",
+                "bird hunting",
+                "chompy hunting"
+            ]
+        },
+        "biohazard": {
+            "name": "Biohazard",
+            "price": 1.6,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "bio hazard",
+                "bio",
+                "hazard"
+            ]
+        },
+        "bone voyage": {
+            "name": "Bone Voyage",
+            "price": 2.4,
+            "ironnotes": {
+                "Item gathering": 0.4,
+                "No Staminas or Super energies": 0.8,
+                "No Xeric's Talisman or Skill's Necklace": 0.8
+            },
+            "aliases": [
+                "bones voyage"
+            ]
+        },
+        "cabin fever": {
+            "name": "Cabin Fever",
+            "price": 2,
+            "notes": {},
+            "ironnotes": {},
+            "aliases": [
+                "cabins fever",
+                "cabin's fever",
+                "cabin"
+            ]
+        },
+        "client of kourend": {
+            "name": "Client of Kourend",
+            "price": 1.6,
+            "notes": {
+                "Discount for Xeric's Talisman or Kourend Teleport": 0.8
+            },
+            "ironnotes": {
+                "No Staminas or Super energies": 2
+            },
+            "aliases": [
+                "client of kourend"
+            ]
+        },
+        "clock tower": {
+            "name": "Clock Tower",
+            "price": 1.2,
+            "notes": {},
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "clock tower",
+                "clocktower",
+                "clocktower"
+            ]
+        },
+        "cold war": {
+            "name": "Cold War",
+            "price": 2.4,
+            "ironnotes": {
+                "Item gathering": 2,
+                "No Staminas or Super energies": 1.6,
+                "No Crafting Table 3": 0.8
+            },
+            "aliases": [
+                "cold war"
+            ]
+        },
+        "contact": {
+            "name": "Contact!",
+            "price": 2.4,
+            "ironnotes": {
+                "No Staminas or Super energies": 1.6,
+                "No Nardah Teleports": 1.2,
+                "HCIM": 2
+            },
+            "aliases": [
+                "contact",
+                "contacts!",
+                "contact!",
+                "contacts"
+            ]
+        },
+        "creature of fenkenstrain": {
+            "name": "Creature of Fenkenstrain",
+            "price": 2,
+            "ironnotes": {
+                "Item gathering": 1.2,
+                "No Staminas or Super energies": 1.2
+            },
+            "aliases": [
+                "creature of fenkenstrain",
+                "creature of frankenstein",
+                "creature of frankenstein",
+                "creature of frankenstrain",
+                "creature of frankenstrain",
+                "creature of fenkenstein",
+                "creature of fenkenstein",
+                "creature of frenkenstein",
+                "creature of frenkenstein",
+                "creature of fenkenstrein",
+                "creature of fenkenstrein",
+                "creature of frenkenstrain",
+                "creature of frenkenstrain",
+                "fenkenstrain",
+                "frankenstein",
+                "frankenstrain",
+                "frenkenstein",
+                "fenkenstrein",
+                "frenkenstrain"
+            ]
+        },
+        "darkness of hallowvale": {
+            "name": "Darkness of Hallowvale",
+            "price": 5.6,
+            "ironnotes": {
+                "Item gathering": 0.8,
+                "No Staminas or Super energies": 2.4,
+                "No Burgh de Rott Teleports (minigame teleport doesn't count)": 2
+            },
+            "aliases": [
+                "darkness of hallowvale",
+                "darkness of hallowville",
+                "darkness of hallowville"
+            ]
+        },
+        "death plateau": {
+            "name": "Death Plateau",
+            "price": 1.2,
+            "ironnotes": {
+                "Item gathering": 0.8,
+                "No Staminas or Super energies": 1.2
+            },
+            "aliases": [
+                "death plateau",
+                "death plat",
+                "death plato",
+                "death plateu",
+                "death platue"
+            ]
+        },
+        "death to the dorgeshuun": {
+            "name": "Death to the Dorgeshuun",
+            "price": 1.6,
+            "ironnotes": {
+                "Item gathering": 2.4,
+                "No Staminas or Super energies": 1.2
+            },
+            "aliases": [
+                "death to dorgeshuun",
+                "death to the dorg",
+                "death to dorg",
+                "death to the dorgeshun",
+                "death to dorgeshun",
+                "dorgeshuun"
+            ]
+        },
+        "depths of despair": {
+            "name": "Depths of Despair",
+            "price": 2,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.4,
+                "No Skills Necklace or Fairy Ring": 2
+            },
+            "aliases": [
+                "depths of despair",
+                "despths of despair",
+                "despths of despair",
+                "depths of despare",
+                "depths of despare"
+            ]
+        },
+        "desert treasure": {
+            "name": "Desert Treasure",
+            "price": 6,
+            "notes": {
+                "Below 43 prayer": 12
+            },
+            "ironnotes": {
+                "Item gathering (just magic logs)": 2,
+                "Item gathering (all items)": 4,
+                "No Staminas or Super energies": 2,
+                "HCIM": 4
+            },
+            "aliases": [
+                "dt",
+                "desert treasure",
+                "dessert treasure",
+                "dessert treasure"
+            ]
+        },
+        "devious minds": {
+            "name": "Devious Minds",
+            "price": 2,
+            "notes": {
+                "If Large Pouch is needed": 2
+            },
+            "ironnotes": {
+                "Item gathering": 0.8,
+                "No Staminas or Super energies": 0.4
+            },
+            "aliases": [
+                "devious mind",
+                "devious mines"
+            ]
+        },
+        "dig site": {
+            "name": "Dig Site",
+            "price": 2.4,
+            "ironnotes": {
+                "Item gathering": 0.8,
+                "No Staminas or Super energies": 0.8,
+                "No Digsite Teleports": 1.6
+            },
+            "aliases": [
+                "dig site",
+                "digsite",
+                "digsite"
+            ]
+        },
+        "dragon slayer 2": {
+            "name": "Dragon Slayer II",
+            "price": 12,
+            "notes": {
+                "Low Combat": 2,
+                "If Goutweed is needed": 1.2
+            },
+            "ironnotes": {
+                "Item gathering (excluding Goutweed)": 2,
+                "No Staminas or Super energies": 2.4,
+                "Barbarian Firemaking not completed": 0.4,
+                "Dragonstone is required": 0,
+                "HCIM - via Quote only": 0
+            },
+            "aliases": [
+                "ds2",
+                "dragon slayer two",
+                "dragon slayer ii",
+                "drag slayer 2",
+                "drag slayer two",
+                "drag slayer ii",
+                "dragon slay 2",
+                "dragon slay two",
+                "dragon slay ii",
+                "drag slay 2",
+                "drag slay two",
+                "drag slay ii"
+            ]
+        },
+        "dream mentor": {
+            "name": "Dream Mentor",
+            "price": 2.4,
+            "notes": {
+                "If Goutweed is needed": 1.2
+            },
+            "ironnotes": {
+                "Item gathering (excluding Goutweed)": 0.4,
+                "No Staminas or Super energies": 0.4,
+                "HCIM": 2
+            },
+            "aliases": [
+                "dream mentor",
+                "dream mentors",
+                "dream mentors"
+            ]
+        },
+        "druidic ritual": {
+            "name": "Druidic Ritual",
+            "price": 0.8,
+            "ironnotes": {
+                "Item gathering": 0.4,
+                "No Staminas or Super energies": 0.4
+            },
+            "aliases": [
+                "drudic ritual",
+                "druidic"
+            ]
+        },
+        "dwarf cannon": {
+            "name": "Dwarf Cannon",
+            "price": 1.2,
+            "notes": {},
+            "ironnotes": {},
+            "aliases": [
+                "dwarf cannon",
+                "dwarfcannon",
+                "dwarfcannon",
+                "cannon"
+            ]
+        },
+        "eadgar's ruse": {
+            "name": "Eadgar's Ruse",
+            "price": 2.4,
+            "ironnotes": {
+                "Item gathering": 0.8,
+                "No Ranarr potions": 2,
+                "No Staminas or Super energies": 1.2
+            },
+            "aliases": [
+                "eadgars ruse",
+                "edgar's ruse",
+                "edgars ruse",
+                "edgar's ruse",
+                "eadgar's",
+                "edgar's",
+                "eadgar",
+                "edgar"
+            ]
+        },
+        "eagles' peak": {
+            "name": "Eagles' Peak",
+            "price": 1.6,
+            "ironnotes": {
+                "Item gathering": 0.4,
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "eagles peak",
+                "eagle peak",
+                "eagle's peak",
+                "eagles's peak"
+            ]
+        },
+        "elemental workshop i": {
+            "name": "Elemental Workshop I",
+            "price": 0.8,
+            "ironnotes": {
+                "Item gathering": 0.4
+            },
+            "aliases": [
+                "elemental workshop",
+                "elemental workshop 1",
+                "elemental workshop one"
+            ]
+        },
+        "elemental workshop ii": {
+            "name": "Elemental Workshop II",
+            "price": 1.6,
+            "ironnotes": {},
+            "aliases": [
+                "elemental workshop 2",
+                "elemental workshop two"
+            ]
+        },
+        "enakhra's lament": {
+            "name": "Enakhra's Lament",
+            "price": 2,
+            "ironnotes": {
+                "Item gathering": 1.2,
+                "No Staminas or Super energies": 0.4
+            },
+            "aliases": [
+                "enakhras lament",
+                "enakhras' lament",
+                "enakhras's lament",
+                "enakra's lament",
+                "enakras lament",
+                "enakras' lament",
+                "enakras's lament",
+                "enakhra lament"
+            ]
+        },
+        "enlightened journey": {
+            "name": "Enlightened Journey",
+            "price": 2,
+            "ironnotes": {
+                "Item gathering": 1.2,
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "enlightened journey",
+                "enlightend journey",
+                "enlightend journey",
+                "enlightend",
+                "enlightened journy",
+                "enlightened journy",
+                "enlightend journy",
+                "enlightend journy"
+            ]
+        },
+        "eyes of glouphrie": {
+            "name": "Eyes of Glouphrie",
+            "price": 1.6,
+            "ironnotes": {
+                "Item gathering": 1.2,
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "eyes of glouphrie",
+                "eyes of glophrie",
+                "eyes of glophrie",
+                "eyes of glophire",
+                "eyes of glophire",
+                "glouphrie"
+            ]
+        },
+        "fairytale i - growing pains": {
+            "name": "Fairytale I - Growing Pains",
+            "price": 1.6,
+            "ironnotes": {
+                "Item gathering": 0.8,
+                "No Staminas or Super energies": 0.8,
+                "HCIM": 1.2
+            },
+            "aliases": [
+                "fairytale 1 - growing pains",
+                "fairytale one - growing pains",
+                "fairytale part i",
+                "fairytale part 1",
+                "fairytale part one",
+                "fairy tale part i",
+                "fairy tale part 1",
+                "fairy tale part one",
+                "fairytale 1",
+                "fairy tale 1",
+                "fairy tale one",
+                "fairytale i",
+                "fairytale 1",
+                "fairytale one",
+                "fairy tale i",
+                "fairy tale 1",
+                "fairy tale one",
+                "ft1",
+                "fairytale pt 1",
+                "fairytale pt i",
+                "fairytale pt one",
+                "fairy tale pt 1",
+                "fairy tale pt i",
+                "fairy tale pt one",
+                "fairytale pt1",
+                "fairy tale pt1",
+                "faery tale",
+                "faery tale 1",
+                "faery tale i",
+                "faery tale one",
+                "faery tail",
+                "faery tail 1",
+                "faery tail i",
+                "faery tail one",
+                "faerie tale",
+                "faerie tale 1",
+                "faerie tale i",
+                "faerie tale one",
+                "faerie tail",
+                "faerie tail 1",
+                "faerie tail ii",
+                "faerie tail one"
+            ]
+        },
+        "fairytale ii - cure a queen": {
+            "name": "Fairytale II - Cure a Queen",
+            "price": 2,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.4,
+                "HCIM": 1.2
+            },
+            "aliases": [
+                "fairytale 2 - cure a queen",
+                "fairytale two - cure a queen",
+                "fairytale part ii",
+                "fairytale part 2",
+                "fairytale part two",
+                "fairy tale part ii",
+                "fairy tale part 2",
+                "fairy tale part two",
+                "fairytale 2",
+                "fairy tale 2",
+                "fairy tale two",
+                "fairytale ii",
+                "fairytale 2",
+                "fairytale two",
+                "fairy tale ii",
+                "fairy tale 2",
+                "fairy tale two",
+                "ft2",
+                "fairytale pt 2",
+                "fairytale pt ii",
+                "fairytale pt two",
+                "fairy tale pt 2",
+                "fairy tale pt ii",
+                "fairy tale pt two",
+                "fairytale pt2",
+                "fairy tale pt2",
+                "faery tale 2",
+                "faery tale ii",
+                "faery tale two",
+                "faery tail 2",
+                "faery tail ii",
+                "faery tail two",
+                "faerie tale 2",
+                "faerie tale ii",
+                "faerie tale two",
+                "faerie tail 2",
+                "faerie tail ii",
+                "faerie tail two"
+            ]
+        },
+        "family crest": {
+            "name": "Family Crest",
+            "price": 1.2,
+            "ironnotes": {
+                "Item gathering": 1.6,
+                "No Staminas or Super energies": 2,
+                "HCIM": 0.8
+            },
+            "aliases": [
+                "family crest"
+            ]
+        },
+        "porcine of interest": {
+            "name": "porcine of interest",
+            "price": 1.2,
+            "notes": {},
+            "ironnotes": {},
+            "aliases": [
+                "porcine of interest",
+                "porcine of interest",
+                "porcine",
+                "porcine",
+                "poi"
+            ]
+        },
+        "feud": {
+            "name": "Feud",
+            "price": 2.8,
+            "ironnotes": {
+                "Item gathering": 0.4,
+                "No Staminas or Super energies": 0.4,
+                "HCIM": 0.8
+            },
+            "aliases": [
+                "fued",
+                "fued",
+                "feud"
+            ]
+        },
+        "fight arena": {
+            "name": "Fight Arena",
+            "price": 0.8,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.4,
+                "HCIM": 0.4
+            },
+            "aliases": [
+                "fight arena"
+            ]
+        },
+        "fishing contest": {
+            "name": "Fishing Contest",
+            "price": 0.4,
+            "notes": {},
+            "ironnotes": {},
+            "aliases": [
+                "fish contest",
+                "fishing"
+            ]
+        },
+        "forgettable tale": {
+            "name": "Forgettable Tale...",
+            "price": 4,
+            "ironnotes": {
+                "Item gathering": 1.6,
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "forgettable tale....",
+                "forgettable tale...",
+                "forgettable tale..",
+                "forgettable tale.",
+                "forgettable tale of a drunken dwarf",
+                "forgettable tale....",
+                "forgettable tale...",
+                "forgettable tale..",
+                "forgettable tale.",
+                "forgettable tale of a drunken dwarf",
+                "drunken dwarf"
+            ]
+        },
+        "forsaken tower": {
+            "name": "Forsaken Tower",
+            "price": 2,
+            "notes": {
+                "No Xeric's Talisman": 0.8
+            },
+            "ironnotes": {},
+            "aliases": [
+                "forsaken tower",
+                "tower"
+            ]
+        },
+        "fremennik exiles": {
+            "name": "Fremennik Exiles",
+            "price": 3.2,
+            "ironnotes": {
+                "Item gathering": 1.2,
+                "No Staminas or Super energies": 1.6,
+                "HCIM": 2
+            },
+            "aliases": [
+                "fremennik exiles",
+                "fremennik exile",
+                "fremennik exile",
+                "fremmenik exiles",
+                "fremmenik exiles",
+                "fremmenik exile",
+                "fremmenik exile",
+                "fremmy exiles",
+                "fremmy exiles",
+                "fremmy exile",
+                "frem exile",
+                "frem exiles",
+                "frem exiles",
+                "frem exile",
+                "frem exile"
+            ]
+        },
+        "fremennik isles": {
+            "name": "Fremennik Isles",
+            "price": 2.4,
+            "ironnotes": {
+                "Item gathering": 2,
+                "No Staminas or Super energies": 2,
+                "HCIM": 2
+            },
+            "aliases": [
+                "fremennik isles",
+                "fremennik isle",
+                "fremennik isle",
+                "fremmenik isles",
+                "fremmenik isles",
+                "fremmenik isle",
+                "fremmenik isle",
+                "fremmy isles",
+                "fremmy isles",
+                "fremmy isle",
+                "frem isle",
+                "frem isles",
+                "frem isles",
+                "frem isle",
+                "frem isle"
+            ]
+        },
+        "fremennik trials": {
+            "name": "Fremennik Trials",
+            "price": 3.6,
+            "ironnotes": {
+                "Item gathering": 1.2,
+                "No Staminas or Super energies": 0.8,
+                "HCIM": 0.8
+            },
+            "aliases": [
+                "fremennik trials",
+                "fremennik trial",
+                "fremennik trial",
+                "fremmenik trials",
+                "fremmenik trials",
+                "fremmenik trial",
+                "fremmenik trial",
+                "fremmy trials",
+                "fremmy trials",
+                "fremmy trial",
+                "frem trial",
+                "frem trials",
+                "frem trials",
+                "frem trial",
+                "frem trial"
+            ]
+        },
+        "garden of tranquillity": {
+            "name": "Garden of Tranquillity",
+            "price": 3.6,
+            "ironnotes": {
+                "Item gathering": 2,
+                "No Staminas or Super energies": 0.4
+            },
+            "aliases": [
+                "garden of tranquility",
+                "garden of tranquility",
+                "garden"
+            ]
+        },
+        "gertrude's cat": {
+            "name": "Gertrude's Cat",
+            "price": 0.8,
+            "ironnotes": {
+                "Item gathering": 0.4,
+                "No Staminas or Super energies": 0.4
+            },
+            "aliases": [
+                "gertrude cat",
+                "gertrudes' cat",
+                "gertrudes's cat",
+                "gertrude",
+                "gertrudes cat"
+            ]
+        },
+        "ghosts ahoy": {
+            "name": "Ghosts Ahoy",
+            "price": 2,
+            "ironnotes": {
+                "Item gathering": 1.2,
+                "No Staminas or Super energies": 1.6
+            },
+            "aliases": [
+                "ghost ahoy",
+                "ghost's ahoy",
+                "ghosts' ahoy",
+                "ghosts's ahoy"
+            ]
+        },
+        "giant dwarf": {
+            "name": "Giant Dwarf",
+            "price": 2.8,
+            "notes": {
+                "No Fairy Rings": 0.8
+            },
+            "ironnotes": {
+                "Item gathering": 0.8,
+                "No Staminas or Super energies": 1.2
+            },
+            "aliases": [
+                "giant dwarf"
+            ]
+        },
+        "grand tree": {
+            "name": "Grand Tree",
+            "price": 1.6,
+            "notes": {
+                "No NMZ Teleport": 0.8
+            },
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "grand tree"
+            ]
+        },
+        "great brain robbery": {
+            "name": "Great Brain Robbery",
+            "price": 2,
+            "ironnotes": {
+                "Item gathering": 1.6,
+                "No Staminas or Super energies": 0.8,
+                "No glory or cb brace": 0.8,
+                "HCIM": 0.8
+            },
+            "aliases": [
+                "great brain robbery",
+                "great brain"
+            ]
+        },
+        "grim tales": {
+            "name": "Grim Tales",
+            "price": 2.4,
+            "ironnotes": {
+                "Item gathering": 0.4,
+                "No Staminas or Super energies": 0.8,
+                "HCIM": 0.8
+            },
+            "aliases": [
+                "grim tales",
+                "grim tale",
+                "grim tale"
+            ]
+        },
+        "hand in the sand": {
+            "name": "Hand in the Sand",
+            "price": 1.2,
+            "ironnotes": {
+                "Item gathering": 0.8,
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "hand in the sand",
+                "hand in sand",
+                "hand in sand"
+            ]
+        },
+        "haunted mine": {
+            "name": "Haunted Mine",
+            "price": 2,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8,
+                "HCIM": 2
+            },
+            "aliases": [
+                "haunted mine"
+            ]
+        },
+        "mage arena II": {
+            "name": "Mage Arena II",
+            "price": 5.2,
+            "notes": {
+                "below 80 magic & no brews": 1.2,
+                "100 Casts": 3.6,
+                "Additional Capes": 2.4
+            },
+            "ironnotes": {
+                "No Staminas or Super energies": 2,
+                "HCIM": 8
+            },
+            "aliases": [
+                "mage arena 2",
+                "mage arena 2",
+                "mage arena II",
+                "Mage Arena II"
+            ]
+        },
+        "mage arena": {
+            "name": "Mage Arena",
+            "price": 1.2,
+            "notes": {
+                "100 Casts": 3.6
+            },
+            "ironnotes": {
+                "HCIM": 4
+            },
+            "aliases": [
+                "mage arena",
+                "mage arena",
+                "mage arena I",
+                "Mage Arena I"
+            ]
+        },
+        "hazeel cult": {
+            "name": "Hazeel Cult",
+            "price": 0.8,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.4
+            },
+            "aliases": [
+                "hazeels cult",
+                "hazeel's cult",
+                "hazeels' cult",
+                "hazeels's cult"
+            ]
+        },
+        "heroes' quest": {
+            "name": "Heroes' Quest",
+            "price": 2.4,
+            "ironnotes": {
+                "Item gathering": 0.4,
+                "No Staminas or Super energies": 2
+            },
+            "aliases": [
+                "heroes quest",
+                "hero quest",
+                "hero's quest",
+                "heroe's quest",
+                "heroes's quest",
+                "hero",
+                "heros",
+                "heroe",
+                "heroes",
+                "heroes'",
+                "heroe's",
+                "heroes's"
+            ]
+        },
+        "holy grail": {
+            "name": "Holy Grail",
+            "price": 1.6,
+            "notes": {},
+            "ironnotes": {},
+            "aliases": [
+                "holy grail"
+            ]
+        },
+        "horror from the deep": {
+            "name": "Horror from the Deep",
+            "price": 1.6,
+            "notes": {
+                "If Alfred Brimhand's Barcrawl needs to be done": 1.2
+            },
+            "ironnotes": {
+                "Item gathering": 0.4,
+                "HCIM": 0.8
+            },
+            "aliases": [
+                "horror from the deep",
+                "from the deep",
+                "hfd"
+            ]
+        },
+        "icthlarin's little helper": {
+            "name": "Icthlarin's Little Helper",
+            "price": 2.4,
+            "ironnotes": {
+                "Item gathering": 0.4,
+                "No Staminas or Super energies": 1.2,
+                "HCIM": 0.8
+            },
+            "aliases": [
+                "icthlarin's helper",
+                "icthlarins helper",
+                "icthlarins' helper",
+                "icthlarins's helper",
+                "icthlarin helper",
+                "little helper",
+                "icthlarin little helper",
+                "icthlarins little helper",
+                "icthlarins' little helper",
+                "icthlarins's little helper",
+                "itchlarin's little helper",
+                "itchlarin's helper",
+                "itchlarins helper",
+                "itchlarins' helper",
+                "itchlarins's helper",
+                "itchlarin helper",
+                "itchlarin little helper",
+                "itchlarins little helper",
+                "itchlarins' little helper",
+                "itchlarins's little helper",
+                "ichlarin's little helper",
+                "ichlarin's helper",
+                "ichlarins helper",
+                "ichlarins' helper",
+                "ichlarins's helper",
+                "ichlarin helper",
+                "ichlarin little helper",
+                "ichlarins little helper",
+                "ichlarins' little helper",
+                "ichlarins's little helper",
+                "ithlarin's little helper",
+                "ithlarin's helper",
+                "ithlarins helper",
+                "ithlarins' helper",
+                "ithlarins's helper",
+                "ithlarin helper",
+                "ithlarin little helper",
+                "ithlarins little helper",
+                "ithlarins' little helper",
+                "ithlarins's little helper",
+                "icchlarin's little helper",
+                "icchlarin's helper",
+                "icchlarins helper",
+                "icchlarins' helper",
+                "icchlarins's helper",
+                "icchlarin helper",
+                "icchlarin little helper",
+                "icchlarins little helper",
+                "icchlarins' little helper",
+                "icchlarins's little helper",
+                "icclarin's little helper",
+                "icclarin's helper",
+                "icclarins helper",
+                "icclarins' helper",
+                "icclarins's helper",
+                "icclarin helper",
+                "icclarin little helper",
+                "icclarins little helper",
+                "icclarins' little helper",
+                "icclarins's little helper",
+                "itthlarin's little helper",
+                "itthlarin's helper",
+                "itthlarins helper",
+                "itthlarins' helper",
+                "itthlarins's helper",
+                "itthlarin helper",
+                "itthlarin little helper",
+                "itthlarins little helper",
+                "itthlarins' little helper",
+                "itthlarins's little helper",
+                "ittlarin's little helper",
+                "ittlarin's helper",
+                "ittlarins helper",
+                "ittlarins' helper",
+                "ittlarins's helper",
+                "ittlarin helper",
+                "ittlarin little helper",
+                "ittlarins little helper",
+                "ittlarins' little helper",
+                "ittlarins's little helper"
+            ]
+        },
+        "in aid of the myreque": {
+            "name": "In Aid of the Myreque",
+            "price": 3.6,
+            "notes": {
+                "Low Combat": 2
+            },
+            "ironnotes": {
+                "Item gathering": 2,
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "aid of the myreque",
+                "in aid of the myrequeue",
+                "aid of the myrequeue",
+                "in aide of the myreque",
+                "aide of the myreque",
+                "in aid of myreque",
+                "aid of myreque",
+                "in aid of myrequeue",
+                "aid of myrequeue",
+                "in aide of myreque",
+                "aide of myreque",
+                "in aid",
+                "in aid of",
+                "in aide",
+                "in aide of"
+            ]
+        },
+        "in search of the myreque": {
+            "name": "In Search of the Myreque",
+            "price": 1.6,
+            "ironnotes": {
+                "Item gathering": 2,
+                "No Staminas or Super energies": 0.4
+            },
+            "aliases": [
+                "search of the myreque",
+                "in search of the myrequeue",
+                "search of the myrequeue"
+            ]
+        },
+        "jungle potion": {
+            "name": "Jungle Potion",
+            "price": 0.8,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "jungle potion",
+                "jungle pot"
+            ]
+        },
+        "king's ransom": {
+            "name": "King's Ransom",
+            "price": 2,
+            "notes": {
+                "Knight's Training Ground (if wanted)": 2
+            },
+            "ironnotes": {
+                "Item gathering": 0.8,
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "kings ransom",
+                "king ransom",
+                "king's ransom",
+                "kings ransom",
+                "king ransom",
+                "kings' ransom",
+                "kings's ransom"
+            ]
+        },
+        "kingdom divided": {
+            "name": "Kingdom Divided",
+            "price": 6,
+            "notes": {
+                "No Dark ess block and sulphur": 0.4
+            },
+            "ironnotes": {
+                "Item gathering": 0.4,
+                "No Staminas or Super energies": 2
+            },
+            "aliases": [
+                "kingdom Divided",
+                "kingdom",
+                "kingdoms divided",
+                "divided kingdom",
+                "divine kingdom"
+            ]
+        },
+        "legends' quest": {
+            "name": "Legends' Quest",
+            "price": 4,
+            "notes": {
+                "Low combat": 0.8
+            },
+            "ironnotes": {
+                "Item gathering": 2,
+                "No Staminas or Super energies": 2,
+                "HCIM": 1.2
+            },
+            "aliases": [
+                "legend's quest",
+                "legends quest",
+                "legend quest",
+                "legends' quest",
+                "legend's quest",
+                "legends quest",
+                "legend quest",
+                "legends'",
+                "legends",
+                "legend"
+            ]
+        },
+        "lost city": {
+            "name": "Lost City",
+            "price": 1.2,
+            "notes": {},
+            "ironnotes": {},
+            "aliases": [
+                "lost city"
+            ]
+        },
+        "lost tribe": {
+            "name": "Lost Tribe",
+            "price": 1.2,
+            "notes": {},
+            "ironnotes": {},
+            "aliases": [
+                "lost tribe"
+            ]
+        },
+        "lunar diplomacy": {
+            "name": "Lunar Diplomacy",
+            "price": 4.8,
+            "ironnotes": {
+                "Item gathering": 1.6,
+                "No Staminas or Super energies": 0.8,
+                "HCIM": 0.8
+            },
+            "aliases": [
+                "lunar",
+                "lunars",
+                "lunar's",
+                "lunars'",
+                "lunars's",
+                "lunar dip",
+                "lunars dip",
+                "lunar's dip",
+                "lunars' dip",
+                "lunars's dip"
+            ]
+        },
+        "making friends with my arm": {
+            "name": "Making Friends with My Arm",
+            "price": 2,
+            "ironnotes": {
+                "Item gathering": 0.8,
+                "No Staminas or Super energies": 0.8,
+                "HCIM": 1.6
+            },
+            "aliases": [
+                "making friends",
+                "making friends w/ my arm",
+                "friends with my arm",
+                "friends w/ my arm",
+                "making friend with my arm",
+                "making friend w/ my arm",
+                "friend with my arm",
+                "friend w/ my arm"
+            ]
+        },
+        "making history": {
+            "name": "Making History",
+            "price": 1.2,
+            "ironnotes": {
+                "Item gathering": 0.4,
+                "No Staminas or Super energies": 0.8,
+                "No Necklace of Passage": 0.8
+            },
+            "aliases": []
+        },
+        "merlin's crystal": {
+            "name": "Merlin's Crystal",
+            "price": 0.8,
+            "ironnotes": {
+                "Item gathering": 0.4,
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "merlin crystal",
+                "merlins' crystal",
+                "merlins's crystal",
+                "merlin",
+                "merlin's",
+                "merlins'",
+                "merlins's",
+                "merlins",
+                "merlins crystal"
+            ]
+        },
+        "monk's friend": {
+            "name": "Monk's Friend",
+            "price": 0.8,
+            "ironnotes": {
+                "Item gathering": 0.4
+            },
+            "aliases": [
+                "monks friend",
+                "monks' friend",
+                "monks's friend",
+                "monk friend",
+                "monk's",
+                "monks",
+                "monks'",
+                "monks's",
+                "monkas",
+                "monkas friend kekw"
+            ]
+        },
+        "monkey madness i": {
+            "name": "Monkey Madness I",
+            "price": 4,
+            "notes": {},
+            "ironnotes": {
+                "Item gathering": 0.4,
+                "No Staminas or Super energies": 2
+            },
+            "aliases": [
+                "monkey madness 1",
+                "monkey madness one",
+                "mmi",
+                "mm1",
+                "mm i",
+                "mm one"
+            ]
+        },
+        "monkey madness ii": {
+            "name": "Monkey Madness II",
+            "price": 12.8,
+            "notes": {
+                "Low Combat": 16
+            },
+            "ironnotes": {
+                "Item gathering": 0.8,
+                "No Staminas or Super energies": 0.8,
+                "HCIM": 5
+            },
+            "aliases": [
+                "monkey madness 2",
+                "monkey madness two",
+                "mmii",
+                "mm2",
+                "mm ii",
+                "mm 2",
+                "mm two"
+            ]
+        },
+        "mountain daughter": {
+            "name": "Mountain Daughter",
+            "price": 1.6,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8,
+                "HCIM": 0.4
+            },
+            "aliases": [
+                "mountain daughter",
+                "mountain's daughter",
+                "mountain's daughter"
+            ]
+        },
+        "mournings' end part i": {
+            "name": "Mournings' End Part I",
+            "price": 3.2,
+            "notes": {
+                "Barrel of naphtha": 0.8
+            },
+            "ironnotes": {
+                "Item gathering": 1.2,
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "me1",
+                "me 1",
+                "mep1",
+                "mep 1",
+                "me p1",
+                "me p 1",
+                "meps1",
+                "meps 1",
+                "mournings end part i",
+                "mournings end part 1",
+                "mournings end part one",
+                "mournings end pt i",
+                "mournings end pt 1",
+                "mournings end pt one",
+                "mournings end pt1",
+                "mournings end i",
+                "mournings end 1",
+                "mournings end one",
+                "mournings' end part i",
+                "mournings' end part 1",
+                "mournings' end part one",
+                "mournings' end pt i",
+                "mournings' end pt 1",
+                "mournings' end pt one",
+                "mournings' end pt1",
+                "mournings' end i",
+                "mournings' end 1",
+                "mournings' end one",
+                "mournings's end part i",
+                "mournings's end part 1",
+                "mournings's end part one",
+                "mournings's end pt i",
+                "mournings's end pt 1",
+                "mournings's end pt one",
+                "mournings's end pt1",
+                "mournings's end i",
+                "mournings's end 1",
+                "mournings's end one",
+                "morning's end part i",
+                "morning's end part 1",
+                "morning's end part one",
+                "morning's end pt i",
+                "morning's end pt 1",
+                "morning's end pt one",
+                "morning's end pt1",
+                "morning's end i",
+                "morning's end 1",
+                "morning's end one",
+                "mornings end part i",
+                "mornings end part 1",
+                "mornings end part one",
+                "mornings end pt i",
+                "mornings end pt 1",
+                "mornings end pt one",
+                "mornings end pt1",
+                "mornings end i",
+                "mornings end 1",
+                "mornings end one",
+                "mornings' end part i",
+                "mornings' end part 1",
+                "mornings' end part one",
+                "mornings' end pt i",
+                "mornings' end pt 1",
+                "mornings' end pt one",
+                "mornings' end pt1",
+                "mornings' end i",
+                "mornings' end 1",
+                "mornings' end one",
+                "mornings's end part i",
+                "mornings's end part 1",
+                "mornings's end part one",
+                "mornings's end pt i",
+                "mornings's end pt 1",
+                "mornings's end pt one",
+                "mornings's end pt1",
+                "mornings's end i",
+                "mornings's end 1",
+                "mornings's end one"
+            ]
+        },
+        "mourning's end part ii": {
+            "name": "Mourning's End Part II",
+            "price": 7.2,
+            "notes": {
+                "Below 70 agility": 2.8
+            },
+            "ironnotes": {
+                "Item gathering": 6,
+                "No Staminas or Super energies": 2
+            },
+            "aliases": [
+                "me2",
+                "me 2",
+                "mep2",
+                "mep 2",
+                "me p2",
+                "me p 2",
+                "meps2",
+                "meps 2",
+                "mournings end part ii",
+                "mournings end part 2",
+                "mournings end part two",
+                "mournings end pt ii",
+                "mournings end pt 2",
+                "mournings end pt two",
+                "mournings end pt2",
+                "mournings end ii",
+                "mournings end 2",
+                "mournings end two",
+                "mournings' end part ii",
+                "mournings' end part 2",
+                "mournings' end part two",
+                "mournings' end pt ii",
+                "mournings' end pt 2",
+                "mournings' end pt two",
+                "mournings' end pt2",
+                "mournings' end ii",
+                "mournings' end 2",
+                "mournings' end two",
+                "mournings's end part ii",
+                "mournings's end part 2",
+                "mournings's end part two",
+                "mournings's end pt ii",
+                "mournings's end pt 2",
+                "mournings's end pt two",
+                "mournings's end pt2",
+                "mournings's end ii",
+                "mournings's end 2",
+                "mournings's end two",
+                "morning's end part ii",
+                "morning's end part 2",
+                "morning's end part two",
+                "morning's end pt ii",
+                "morning's end pt 2",
+                "morning's end pt two",
+                "morning's end pt2",
+                "morning's end ii",
+                "morning's end 2",
+                "morning's end two",
+                "mornings end part ii",
+                "mornings end part 2",
+                "mornings end part two",
+                "mornings end pt ii",
+                "mornings end pt 2",
+                "mornings end pt two",
+                "mornings end pt2",
+                "mornings end ii",
+                "mornings end 2",
+                "mornings end two",
+                "mornings' end part ii",
+                "mornings' end part 2",
+                "mornings' end part two",
+                "mornings' end pt ii",
+                "mornings' end pt 2",
+                "mornings' end pt two",
+                "mornings' end pt2",
+                "mornings' end ii",
+                "mornings' end 2",
+                "mornings' end two",
+                "mornings's end part ii",
+                "mornings's end part 2",
+                "mornings's end part two",
+                "mornings's end pt ii",
+                "mornings's end pt 2",
+                "mornings's end pt two",
+                "mornings's end pt2",
+                "mornings's end ii",
+                "mornings's end 2",
+                "mornings's end two"
+            ]
+        },
+        "murder mystery": {
+            "name": "Murder Mystery",
+            "price": 0.8,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.4
+            },
+            "aliases": [
+                "murder mystery"
+            ]
+        },
+        "my arm's big adventure": {
+            "name": "My Arm's Big adventure",
+            "price": 2,
+            "notes": {
+                "Tai Bwo Wannai Favour": 2
+            },
+            "ironnotes": {
+                "Item gathering": 0.4,
+                "No Staminas or Super energies": 0.8,
+                "HCIM": 0.4
+            },
+            "aliases": [
+                "my arm big adventure",
+                "my arms big adventure",
+                "my arms' big adventure",
+                "my arms's big adventure",
+                "arm big adventure",
+                "arm's big adventure",
+                "arms big adventure",
+                "arms' big adventure",
+                "arms's big adventure",
+                "big adventure"
+            ]
+        },
+        "nature spirit": {
+            "name": "Nature Spirit",
+            "price": 1.2,
+            "ironnotes": {
+                "Item gathering": 0.4,
+                "No Staminas or Super energies": 1.2
+            },
+            "aliases": [
+                "nature's spirit",
+                "natures spirit",
+                "natures' spirit",
+                "natures's spirit",
+                "nature spirits",
+                "nature's spirits",
+                "natures spirits",
+                "natures' spirits",
+                "natures's spirits"
+            ]
+        },
+        "observatory quest": {
+            "name": "Observatory Quest",
+            "price": 1.2,
+            "ironnotes": {
+                "Item gathering": 0.4,
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "observatory quest",
+                "observatory",
+                "observatory"
+            ]
+        },
+        "olaf's quest": {
+            "name": "Olaf's Quest",
+            "price": 1.6,
+            "ironnotes": {
+                "Item gathering": 0.4,
+                "No Staminas or Super energies": 0.4
+            },
+            "aliases": [
+                "olafs quest",
+                "olafs' quest",
+                "olafs's quest",
+                "olaf quest",
+                "olaf's",
+                "olafs",
+                "olafs'",
+                "olafs's",
+                "olaf",
+                "olafs quest",
+                "olafs' quest",
+                "olafs's quest",
+                "olaf quest"
+            ]
+        },
+        "one small favour": {
+            "name": "One Small Favour",
+            "price": 4,
+            "ironnotes": {
+                "Item gathering": 2,
+                "No Staminas or Super energies": 2
+            },
+            "aliases": [
+                "osf",
+                "one small favor",
+                "small favour",
+                "small favours",
+                "small favor",
+                "small favors"
+            ]
+        },
+        "plague city": {
+            "name": "Plague City",
+            "price": 0.8,
+            "ironnotes": {
+                "Item gathering": 0.4,
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "plague city",
+                "plague"
+            ]
+        },
+        "priest in peril": {
+            "name": "Priest in Peril",
+            "price": 1.2,
+            "ironnotes": {
+                "Item gathering": 0.4,
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "priest in peril"
+            ]
+        },
+        "rag and bone man": {
+            "name": "Rag and Bone Man",
+            "price": 2,
+            "notes": {
+                "Dig Site Teleport": 0.4
+            },
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "rag and bone man i",
+                "rag and bone man 1",
+                "rag and bone man one",
+                "rag & bone man",
+                "rag & bone man i",
+                "rag & bone man 1",
+                "rag & bone man one",
+                "rag and bone man",
+                "rag and bone man i",
+                "rag and bone man 1",
+                "rag and bone man one",
+                "rag & bone man",
+                "rag & bone man i",
+                "rag & bone man 1",
+                "rag & bone man one",
+                "rag1",
+                "rag 1"
+            ]
+        },
+        "rag and bone man ii": {
+            "name": "Rag and Bone Man II",
+            "price": 6,
+            "notes": {
+                "No Fairy Rings": 1.6
+            },
+            "ironnotes": {
+                "Item gathering": 0.4,
+                "No Staminas or Super energies": 1.2
+            },
+            "aliases": [
+                "rag and bone man 2",
+                "rag and bone man two",
+                "rag and bone man ii",
+                "rag and bone man 2",
+                "rag and bone man two",
+                "rag & bone man ii",
+                "rag & bone man 2",
+                "rag & bone man two",
+                "rag & bone man ii",
+                "rag & bone man 2",
+                "rag & bone man two",
+                "rag2",
+                "rag 2"
+            ]
+        },
+        "ratcatchers": {
+            "name": "Ratcatchers",
+            "price": 6,
+            "notes": {
+                "Kitten": 2
+            },
+            "ironnotes": {
+                "Item gathering": 1.2,
+                "No Staminas or Super energies": 0.4
+            },
+            "aliases": [
+                "rat catchers",
+                "rat catcher",
+                "ratcatchers",
+                "rat catchers",
+                "rat catcher"
+            ]
+        },
+        "recruitment drive": {
+            "name": "Recruitment Drive",
+            "price": 1.2,
+            "notes": {},
+            "ironnotes": {},
+            "aliases": [
+                "recruitment drive",
+                "recruitmentdrive",
+                "recruitment"
+            ]
+        },
+        "regicide": {
+            "name": "Regicide",
+            "price": 3.6,
+            "notes": {
+                "Below 60 agility": 2.4
+            },
+            "ironnotes": {
+                "Item gathering": 0.4,
+                "No Staminas or Super energies": 2
+            },
+            "aliases": [
+                "regicide"
+            ]
+        },
+        "roving elves": {
+            "name": "Roving Elves",
+            "price": 2,
+            "ironnotes": {
+                "Item gathering": 0.4,
+                "No Staminas or Super energies": 0.8,
+                "HCIM": 0.8
+            },
+            "aliases": [
+                "roving elves",
+                "roving elfs",
+                "roving elfs",
+                "roving elf",
+                "roving elf"
+            ]
+        },
+        "royal trouble": {
+            "name": "Royal Trouble",
+            "price": 1.6,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.4,
+                "HCIM": 0.4
+            },
+            "aliases": [
+                "royal trouble",
+                "royale trouble",
+                "royale trouble"
+            ]
+        },
+        "rum deal": {
+            "name": "Rum Deal",
+            "price": 1.6,
+            "notes": {},
+            "ironnotes": {},
+            "aliases": [
+                "rum deal",
+                "rum"
+            ]
+        },
+        "scorpion catcher": {
+            "name": "Scorpion Catcher",
+            "price": 1.2,
+            "notes": {
+                "Barcrawl": 1.2
+            },
+            "ironnotes": {
+                "Below 70 agility": 0.4,
+                "No Staminas or Super energies": 0.4
+            },
+            "aliases": [
+                "scorpion catchers",
+                "scorpion catcher",
+                "scorpion catchers",
+                "scorp catcher",
+                "scorp catchers"
+            ]
+        },
+        "sea slug": {
+            "name": "Sea Slug",
+            "price": 1.6,
+            "notes": {},
+            "ironnotes": {},
+            "aliases": [
+                "sea slug",
+                "sea slugs",
+                "sea slugs"
+            ]
+        },
+        "shades of mort'ton": {
+            "name": "Shades of Mort'ton",
+            "price": 2,
+            "ironnotes": {
+                "Item gathering": 0.4
+            },
+            "aliases": [
+                "shades of mortton",
+                "shades of morton",
+                "shades of mort'on",
+                "shades of mort'ton",
+                "shades of mortton",
+                "shades of morton",
+                "shades of mort'on",
+                "shade of mort'ton",
+                "shade of mortton",
+                "shade of morton",
+                "shade of mort'on"
+            ]
+        },
+        "shadow of the storm": {
+            "name": "Shadow of the Storm",
+            "price": 1.6,
+            "ironnotes": {
+                "Item gathering": 0.4,
+                "HCIM": 0.8
+            },
+            "aliases": [
+                "shadow of the storm",
+                "shadows of the storm",
+                "shadows of the storm"
+            ]
+        },
+        "sheep herder": {
+            "name": "Sheep Herder",
+            "price": 1.2,
+            "notes": {},
+            "ironnotes": {},
+            "aliases": [
+                "sheep herder",
+                "herder"
+            ]
+        },
+        "shilo village": {
+            "name": "Shilo Village",
+            "price": 2.4,
+            "ironnotes": {
+                "Item gathering": 0.4,
+                "No Staminas or Super energies": 0.8,
+                "HCIM": 0.8
+            },
+            "aliases": [
+                "shilo village",
+                "shilos village",
+                "shilo's village",
+                "shilos' village",
+                "shilos's village",
+                "shilo vill",
+                "shilos vill",
+                "shilo's vill",
+                "shilos' vill",
+                "shilos's vill"
+            ]
+        },
+        "sins of the father": {
+            "name": "Sins of the Father",
+            "price": 6,
+            "notes": {
+                "Low Combat": 4
+            },
+            "ironnotes": {
+                "Item gathering": 0.4,
+                "No Staminas or Super energies": 1.2,
+                "HCIM": 2
+            },
+            "aliases": [
+                "sotf",
+                "sin of the father",
+                "sin of father",
+                "sins of the father",
+                "sin of the father",
+                "sin of father"
+            ]
+        },
+        "song of the elves": {
+            "name": "Song of the Elves",
+            "price": 14,
+            "ironnotes": {
+                "Below 80 magic (no brews)": 4,
+                "Above 80 magic (no brews)": 2,
+                "Item gathering": 1.6,
+                "Runite bar & cadantine seed are required": 0,
+                "No Staminas or Super energies": 2,
+                "HCIM": 2
+            },
+            "aliases": [
+                "sote",
+                "song of the elves",
+                "song of the elve's",
+                "song of the elves'",
+                "song of the elves's",
+                "song of the elfs",
+                "song of the elf's",
+                "song of the elfs'",
+                "song of the elfs's",
+                "song of the elfs",
+                "song of the elf's",
+                "song of the elfs'",
+                "song of the elfs's",
+                "song of elf",
+                "song of the elf"
+            ]
+        },
+        "soul's bane": {
+            "name": "Soul's Bane",
+            "price": 2.4,
+            "notes": {},
+            "ironnotes": {},
+            "aliases": [
+                "souls' bane",
+                "soul's bane",
+                "soul's bane",
+                "souls' bane",
+                "souls' bane",
+                "souls' bane",
+                "souls bane",
+                "souls bane",
+                "souls bane",
+                "sole's bane",
+                "sole's bane",
+                "sole's bane",
+                "soles' bane",
+                "soles' bane",
+                "soles' bane",
+                "soles bane",
+                "soles bane",
+                "soles bane"
+            ]
+        },
+        "spirits of the elid": {
+            "name": "Spirits of the Elid",
+            "price": 1.6,
+            "ironnotes": {
+                "Item gathering": 0.4,
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "spirit of the elid",
+                "spirits of elid",
+                "spirit of elid",
+                "spirits of the elid",
+                "spirit of the elid",
+                "spirits of elid",
+                "spirit of elid"
+            ]
+        },
+        "swan song": {
+            "name": "Swan Song",
+            "price": 2.4,
+            "ironnotes": {
+                "Item gathering": 1.6,
+                "No Staminas or Super energies": 0.8,
+                "HCIM": 1.2
+            },
+            "aliases": [
+                "swans song",
+                "swan's song",
+                "swan song",
+                "swans song",
+                "swan's song",
+                "swan"
+            ]
+        },
+        "taste of hope": {
+            "name": "Taste of Hope",
+            "price": 3.2,
+            "ironnotes": {
+                "Item gathering": 0.4,
+                "No Staminas or Super energies": 0.8,
+                "HCIM": 2
+            },
+            "aliases": [
+                "taste of hope",
+                "taste of hope"
+            ]
+        },
+        "tai bwo wannai trio": {
+            "name": "Tai Bwo Wannai Trio",
+            "price": 1.6,
+            "notes": {
+                "No Fairy Rings": 1.2
+            },
+            "ironnotes": {
+                "Item gathering": 1.2,
+                "No Staminas or Super energies": 2
+            },
+            "aliases": [
+                "tai bo wannai trio",
+                "tai bwo wannai trio"
+            ]
+        },
+        "tail of two cats": {
+            "name": "Tail of Two Cats",
+            "price": 3.2,
+            "ironnotes": {
+                "Item gathering": 1.6,
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "tail of two cats",
+                "tail of two cats",
+                "tail of 2 cats",
+                "tail of 2 cats",
+                "tail of 2 cats",
+                "tale of two cats",
+                "tale of two cats",
+                "tale of two cats",
+                "tale of 2 cats",
+                "tale of 2 cats",
+                "tale of 2 cats",
+                "tail of too cats",
+                "tail of too cats",
+                "tail of too cats",
+                "tale of too cats",
+                "tale of too cats",
+                "tale of too cats",
+                "tail of to cats",
+                "tail of to cats",
+                "tail of to cats",
+                "tale of to cats",
+                "tale of to cats",
+                "tale of to cats",
+                "tail of two cat",
+                "tail of two cat",
+                "tail of two cat",
+                "tail of 2 cat",
+                "tail of 2 cat",
+                "tail of 2 cat",
+                "tale of two cat",
+                "tale of two cat",
+                "tale of two cat",
+                "tale of 2 cat",
+                "tale of 2 cat",
+                "tale of 2 cat",
+                "tail of too cat",
+                "tail of too cat",
+                "tail of too cat",
+                "tale of too cat",
+                "tale of too cat",
+                "tale of too cat",
+                "tail of to cat",
+                "tail of to cat",
+                "tail of to cat",
+                "tale of to cat",
+                "tale of to cat",
+                "tale of to cat"
+            ]
+        },
+        "tale of the righteous": {
+            "name": "Tale of the Righteous",
+            "price": 1.6,
+            "notes": {
+                "No Fairy rings": 0.8
+            },
+            "ironnotes": {
+                "No Xeric's Talisman": 0.8,
+                "No Xeric honor or History Duffy": 0.4,
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "tale of the righteous",
+                "tales of the righteous",
+                "tales of the righteous",
+                "tale of righteous",
+                "tales of righteous",
+                "tale of rightous"
+            ]
+        },
+        "tears of guthix": {
+            "name": "Tears of Guthix",
+            "price": 0.8,
+            "notes": {},
+            "ironnotes": {
+                "No Lantern with death to the dorgeshuun": 0.8,
+                "No Lantern & no death to the dorgeshuun": 2
+            },
+            "aliases": [
+                "tear of guthix",
+                "tears of guthix",
+                "tear of guthix"
+            ]
+        },
+        "temple of ikov": {
+            "name": "Temple of Ikov",
+            "price": 1.6,
+            "ironnotes": {
+                "Item gathering": 2.4,
+                "No Yew or Magic bow": 2.4,
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "temple of ikov",
+                "ikov"
+            ]
+        },
+        "golem": {
+            "name": "Golem",
+            "price": 0.8,
+            "notes": {
+                "No Dig Site Teleports": 0.8
+            },
+            "ironnotes": {
+                "Item gathering": 0.4,
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "golem"
+            ]
+        },
+        "queen of thieves": {
+            "name": "Queen of Thieves",
+            "price": 1.2,
+            "notes": {
+                "No Kourend Teleport": 0.4
+            },
+            "ironnotes": {
+                "Item gathering": 0.4,
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "queen of thieves",
+                "queen of thiefs",
+                "queen of thiefs",
+                "queen of theives",
+                "queen of theives",
+                "queen of theifs",
+                "quen of theifs",
+                "queen"
+            ]
+        },
+        "slug menace": {
+            "name": "Slug Menace",
+            "price": 2,
+            "ironnotes": {
+                "Item gathering": 1.2,
+                "No Staminas or Super energies": 0.8,
+                "No necklace of passage": 0.4
+            },
+            "aliases": [
+                "slug menace"
+            ]
+        },
+        "tourist trap": {
+            "name": "Tourist Trap",
+            "price": 1.6,
+            "ironnotes": {
+                "Item gathering": 0.4,
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "tourist trap"
+            ]
+        },
+        "throne of miscellania": {
+            "name": "Throne of Miscellania",
+            "price": 2.8,
+            "ironnotes": {
+                "Item gathering": 0.4,
+                "No Staminas or Super energies": 1.2
+            },
+            "aliases": [
+                "throne of miscellania",
+                "throne of misc",
+                "throne of misc",
+                "throne of misc.",
+                "throne of misc."
+            ]
+        },
+        "tower of life": {
+            "name": "Tower of Life",
+            "price": 2,
+            "ironnotes": {
+                "Item gathering": 0.4
+            },
+            "aliases": [
+                "tower of life"
+            ]
+        },
+        "tree gnome village": {
+            "name": "Tree Gnome Village",
+            "price": 1.2,
+            "ironnotes": {
+                "Item gathering": 0.4,
+                "No Staminas or Super energies": 0.8,
+                "HCIM": 0.8
+            },
+            "aliases": [
+                "tree gnome village",
+                "gnome village",
+                "gnome village",
+                "tree gnome vill",
+                "gnome vill",
+                "tree gnome vill",
+                "gnome vill"
+            ]
+        },
+        "tribal totem": {
+            "name": "Tribal Totem",
+            "price": 0.8,
+            "notes": {},
+            "ironnotes": {},
+            "aliases": [
+                "tribal totem"
+            ]
+        },
+        "troll romance": {
+            "name": "Troll Romance",
+            "price": 1.6,
+            "ironnotes": {
+                "Item gathering": 1.2,
+                "No Staminas or Super energies": 0.8,
+                "HCIM": 0.8
+            },
+            "aliases": [
+                "troll romance",
+                "trolls romance",
+                "troll's romance",
+                "trolls' romance"
+            ]
+        },
+        "troll stronghold": {
+            "name": "Troll Stronghold",
+            "price": 1.2,
+            "ironnotes": {
+                "No Staminas or Super energies": 1.6
+            },
+            "aliases": [
+                "troll stronghold",
+                "trolls stronghold",
+                "trolls stronghold",
+                "troll's stronghold",
+                "troll's stronghold",
+                "trolls' stronghold",
+                "trolls' stronghold",
+                "troll strong hold",
+                "troll strong hold",
+                "trolls strong hold",
+                "trolls strong hold",
+                "troll's strong hold",
+                "troll's strong hold",
+                "trolls' strong hold",
+                "trolls' strong hold"
+            ]
+        },
+        "underground pass": {
+            "name": "Underground Pass",
+            "price": 4.8,
+            "notes": {
+                "Below 60 agility": 2
+            },
+            "ironnotes": {
+                "Item gathering": 0.4,
+                "No Staminas or Super energies": 2,
+                "HCIM": 2
+            },
+            "aliases": [
+                "underground pass",
+                "under ground pass",
+                "underground",
+                "under ground pass"
+            ]
+        },
+        "wanted!": {
+            "name": "Wanted!",
+            "price": 2.4,
+            "ironnotes": {
+                "Item gathering": 0.4,
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "wanted"
+            ]
+        },
+        "watchtower": {
+            "name": "Watchtower",
+            "price": 2.4,
+            "ironnotes": {
+                "Item gathering": 0.8,
+                "No Staminas or Super energies": 2
+            },
+            "aliases": [
+                "watchtower",
+                "watch tower",
+                "watch tower"
+            ]
+        },
+        "waterfall quest": {
+            "name": "Waterfall Quest",
+            "price": 1.2,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.4,
+                "HCIM": 0.4
+            },
+            "aliases": [
+                "waterfall quest",
+                "waterfall quest",
+                "waterfall",
+                "water fall quest",
+                "water fall quest",
+                "water fall"
+            ]
+        },
+        "what lies below": {
+            "name": "What Lies Below",
+            "price": 1.6,
+            "ironnotes": {
+                "Item gathering": 0.4,
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": []
+        },
+        "witch's house": {
+            "name": "Witch's House",
+            "price": 0.8,
+            "notes": {},
+            "ironnotes": {},
+            "aliases": [
+                "witch's house",
+                "witchs house",
+                "witchs house",
+                "witches house",
+                "witches house",
+                "which's house",
+                "which's house",
+                "witch house",
+                "witch house",
+                "which house",
+                "which house",
+                "whiche's house",
+                "whiche's house",
+                "whiches house",
+                "whiches house",
+                "whiches' house",
+                "whiches' house"
+            ]
+        },
+        "zogre flesh eaters": {
+            "name": "Zogre Flesh Eaters",
+            "price": 1.6,
+            "ironnotes": {
+                "Item gathering": 0.8,
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "zorge",
+                "zorge flesh eaters",
+                "zorge flesh"
+            ]
+        },
+        "another cook's quest": {
+            "name": "RFD - Another Cook's Quest",
+            "price": 0.6,
+            "ironnotes": {
+                "Item gathering": 0.4
+            },
+            "aliases": [
+                "rfd - another cook's quest",
+                "rfd cook",
+                "rfd cooks",
+                "rfd cook's",
+                "rfd another cook quest",
+                "rfd another cooks quest",
+                "rfd another cook's quest",
+                "another cooks quest"
+            ]
+        },
+        "defeating the culinaromancer": {
+            "name": "RFD - Defeating the Culinaromancer",
+            "price": 2,
+            "ironnotes": {
+                "HCIM": 2
+            },
+            "aliases": [
+                "rfd - defeating the culinaromancer",
+                "culinaromancer",
+                "rfd culinaromancer",
+                "rfd defeating the culinaromancer",
+                "rfd final fight",
+                "rfd boss",
+                "rfd boss fight"
+            ]
+        },
+        "freeing evil dave": {
+            "name": "RFD - Freeing Evil Dave",
+            "price": 2,
+            "notes": {
+                "Kitten": 2
+            },
+            "ironnotes": {
+                "Item gathering": 0.4
+            },
+            "aliases": [
+                "evil dave",
+                "rfd evil dave",
+                "rfd freeing evil dave",
+                "rfd dave",
+                "rfd - freeing evil dave",
+                "rfd-freeing evil dave",
+                "rfd- freeing evil dave",
+                "rfd -freeing evil dave"
+            ]
+        },
+        "freeing king awowogei": {
+            "name": "RFD - Freeing King Awowogei",
+            "price": 2,
+            "notes": {
+                "4 greegrees needed": 1.2
+            },
+            "ironnotes": {
+                "No Staminas or Super energies": 0.4
+            },
+            "aliases": [
+                "rfd - freeing king awowogei",
+                "awowogei",
+                "king awowogei",
+                "rfd king awowogei",
+                "monkey king",
+                "rfd monkey king",
+                "monkey king",
+                "rfd the monkey king",
+                "rfd freeing awowogei",
+                "rfd freeing king awowogei",
+                "rfd freeing monkey king",
+                "rfd freeing the monkey king",
+                "rfd - freeing awowogei",
+                "rfd-freeing awowogei",
+                "rfd- freeing awowogei",
+                "rfd -freeing awowogei",
+                "rfd - freeing the monkey king",
+                "rfd-freeing the monkey king",
+                "rfd- freeing the monkey king",
+                "rfd -freeing the monkey king",
+                "rfd - freeing monkey king",
+                "rfd-freeing monkey king",
+                "rfd- freeing monkey king",
+                "rfd monkey",
+                "RFD - Freeing King Awowogei",
+                "rfd -freeing monkey king"
+            ]
+        },
+        "freeing pirate pete": {
+            "name": "RFD - Freeing Pirate Pete",
+            "price": 1.2,
+            "ironnotes": {
+                "Item gathering": 0.4
+            },
+            "aliases": [
+                "pirate pete",
+                "rfd pirate pete",
+                "rfd pirate",
+                "rfd pete",
+                "rfd freeing pirate pete",
+                "rfd freeing pirate",
+                "rfd freeing pete",
+                "rfd freeing the pirate",
+                "rfd - freeing pirate pete",
+                "rfd-freeing pirate pete",
+                "rfd- freeing pirate pete",
+                "rfd -freeing pirate pete",
+                "rfd - freeing pete",
+                "rfd-freeing pete",
+                "rfd- freeing pete",
+                "rfd -freeing pete",
+                "rfd - freeing pirate",
+                "rfd-freeing pirate",
+                "rfd- freeing pirate",
+                "rfd -freeing pirate",
+                "rfd - freeing the pirate",
+                "rfd-freeing the pirate",
+                "rfd- freeing the pirate",
+                "rfd -freeing the pirate"
+            ]
+        },
+        "freeing sir amik varze": {
+            "name": "RFD - Freeing Sir Amik Varze",
+            "price": 2.4,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.4,
+                "No sweetcorn": 0.8
+            },
+            "aliases": [
+                "sir amik varze",
+                "amik varze",
+                "varze",
+                "amik",
+                "sir amik",
+                "rfd sir amik varze",
+                "rfd amik varze",
+                "rfd varze",
+                "rfd amik",
+                "rfd sir amik",
+                "rfd freeing sir amik varze",
+                "rfd freeing amik varze",
+                "rfd freeing varze",
+                "rfd freeing amik",
+                "rfd freeing sir amik",
+                "rfd - freeing sir amik varze",
+                "rfd-freeing sir amik varze",
+                "rfd- freeing sir amik varze",
+                "rfd -freeing sir amik varze",
+                "rfd - freeing amik varze",
+                "rfd-freeing amik varze",
+                "rfd- freeing amik varze",
+                "rfd -freeing amik varze",
+                "rfd - freeing sir amik",
+                "rfd-freeing sir amik",
+                "rfd- freeing sir amik",
+                "rfd -freeing sir amik",
+                "rfd - freeing varze",
+                "rfd-freeing varze",
+                "rfd- freeing varze",
+                "rfd -freeing varze",
+                "rfd - freeing amik",
+                "rfd-freeing amik",
+                "rfd- freeing amik",
+                "rfd -freeing amik"
+            ]
+        },
+        "freeing skrach uglogwee": {
+            "name": "RFD - Freeing Skrach Uglogwee",
+            "price": 1.6,
+            "ironnotes": {
+                "Item gathering": 0.8,
+                "No Staminas or Super energies": 0.4
+            },
+            "aliases": [
+                "skrach uglogwee",
+                "skrach",
+                "uglogwee",
+                "rfd freeing skrach uglogwee",
+                "rfd freeing skrach",
+                "rfd freeing uglogwee",
+                "rfd orge",
+                "rfd freeing ogre",
+                "rfd the ogre",
+                "rfd freeing the ogre",
+                "rfd - freeing skrach uglogwee",
+                "rfd-freeing skrach uglogwee",
+                "rfd- freeing skrach uglogwee",
+                "rfd -freeing skrach uglogwee",
+                "rfd - freeing skrach",
+                "rfd-freeing skrach",
+                "rfd- freeing skrach",
+                "rfd -freeing skrach",
+                "rfd - freeing uglogwee",
+                "rfd-freeing uglogwee",
+                "rfd- freeing uglogwee",
+                "rfd -freeing uglogwee",
+                "rfd - freeing ogre",
+                "rfd-freeing ogre",
+                "rfd- freeing ogre",
+                "rfd -freeing ogre",
+                "rfd - freeing the ogre",
+                "rfd-freeing the ogre",
+                "rfd- freeing the ogre",
+                "rfd -freeing the ogre",
+                "rfd ogre"
+            ]
+        },
+        "freeing the goblin generals": {
+            "name": "RFD - Freeing the Goblin Generals",
+            "price": 0.8,
+            "ironnotes": {
+                "Item gathering": 0.4
+            },
+            "aliases": [
+                "goblin generals",
+                "rfd freeing the goblin generals",
+                "rfd goblin generals",
+                "rfd goblin general",
+                "rfd goblins",
+                "rfd goblin",
+                "rfd freeing the goblins",
+                "rfd freeing the goblin",
+                "rfd - freeing the goblin generals",
+                "rfd-freeing the goblin generals",
+                "rfd- freeing the goblin generals",
+                "rfd -freeing the goblin generals",
+                "rfd - freeing the goblin general",
+                "rfd-freeing the goblin general",
+                "rfd- freeing the goblin general",
+                "rfd -freeing the goblin general",
+                "rfd - freeing goblin generals",
+                "rfd-freeing goblin generals",
+                "rfd- freeing goblin generals",
+                "rfd -freeing goblin generals",
+                "rfd - freeing goblin general",
+                "rfd-freeing goblin general",
+                "rfd- freeing goblin general",
+                "rfd -freeing goblin general",
+                "rfd - freeing the generals",
+                "rfd-freeing the generals",
+                "rfd- freeing the generals",
+                "rfd -freeing the generals",
+                "rfd - freeing generals",
+                "rfd-freeing generals",
+                "rfd- freeing generals",
+                "rfd -freeing generals",
+                "rfd - freeing the goblins",
+                "rfd-freeing the goblins",
+                "rfd- freeing the goblins",
+                "rfd -freeing the goblins",
+                "rfd - freeing the goblin",
+                "rfd-freeing the goblin",
+                "rfd- freeing the goblin",
+                "rfd -freeing the goblin",
+                "rfd - freeing goblins",
+                "rfd-freeing goblins",
+                "rfd- freeing goblins",
+                "rfd -freeing goblins",
+                "rfd - freeing goblin",
+                "rfd-freeing goblin",
+                "rfd- freeing goblin",
+                "rfd -freeing goblin"
+            ]
+        },
+        "freeing the lumbridge guide": {
+            "name": "RFD - Freeing the Lumbridge Guide",
+            "price": 0.8,
+            "notes": {},
+            "ironnotes": {},
+            "aliases": [
+                "lumbridge guide",
+                "lumby guide",
+                "lummy guide",
+                "rfd lumbridge guide",
+                "rfd lumby guide",
+                "rfd lummy guide",
+                "rfd freeing lumbridge guide",
+                "rfd freeing lumby guide",
+                "rfd freeing lummy guide",
+                "rfd freeing the lumbridge guide",
+                "rfd freeing the lumby guide",
+                "rfd freeing the lummy guide",
+                "rfd - freeing the lumbridge guide",
+                "rfd-freeing the lumbridge guide",
+                "rfd- freeing the lumbridge guide",
+                "rfd -freeing the lumbridge guide",
+                "rfd - freeing lumbridge guide",
+                "rfd-freeing lumbridge guide",
+                "rfd- freeing lumbridge guide",
+                "rfd -freeing lumbridge guide",
+                "rfd - freeing lummy guide",
+                "rfd-freeing lummy guide",
+                "rfd- freeing lummy guide",
+                "rfd -freeing lummy guide",
+                "rfd - freeing the lummy guide",
+                "rfd-freeing the lummy guide",
+                "rfd- freeing the lummy guide",
+                "rfd -freeing the lummy guide",
+                "rfd - freeing lumby guide",
+                "rfd-freeing lumby guide",
+                "rfd- freeing lumby guide",
+                "rfd -freeing lumby guide",
+                "rfd - freeing the lumby guide",
+                "rfd-freeing the lumby guide",
+                "rfd- freeing the lumby guide",
+                "rfd -freeing the lumby guide"
+            ]
+        },
+        "freeing the mountain dwarf": {
+            "name": "RFD - Freeing the Mountain Dwarf",
+            "price": 0.8,
+            "ironnotes": {
+                "Item gathering": 0.4
+            },
+            "aliases": [
+                "mountain dwarf",
+                "rfd dwarf",
+                "rfd mountain dwarf",
+                "rfd freeing the dwarf",
+                "rfd freeing the mountain dwarf",
+                "rfd - freeing the mountain dwarf",
+                "rfd-freeing the mountain dwarf",
+                "rfd- freeing the mountain dwarf",
+                "rfd -freeing the mountain dwarf",
+                "rfd - freeing mountain dwarf",
+                "rfd-freeing mountain dwarf",
+                "rfd- freeing mountain dwarf",
+                "rfd -freeing mountain dwarf",
+                "rfd - freeing the dwarf",
+                "rfd-freeing the dwarf",
+                "rfd- freeing the dwarf",
+                "rfd -freeing the dwarf",
+                "rfd - freeing dwarf",
+                "rfd-freeing dwarf",
+                "rfd- freeing dwarf",
+                "rfd -freeing dwarf"
+            ]
+        },
+        "alfred grimhand's barcrawl": {
+            "name": "Alfred Grimhand's Barcrawl",
+            "price": 1.2,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "alfred grimhands barcrawl",
+                "barcrawl",
+                "bar crawl",
+                "barcrawl",
+                "bar crawl",
+                "alfred grimhand's",
+                "alfred grimhands",
+                "alfred grimhand",
+                "grimhand's barcrawl",
+                "grimhand's bar crawl",
+                "grimhands barcrawl",
+                "grimhands bar crawl",
+                "grimhand's",
+                "grimhands",
+                "grimhand",
+                "grim hand"
+            ]
+        },
+        "architectural alliance": {
+            "name": "Architectural Alliance",
+            "price": 0.8,
+            "notes": {
+                "No Xeric's Talisman": 0.8
+            },
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "aa",
+                "alliance",
+                "zeah favor",
+                "architectural alliance"
+            ]
+        },
+        "bear your soul": {
+            "name": "Bear your Soul",
+            "price": 2,
+            "notes": {
+                "Below 70 agility": 0.8
+            },
+            "ironnotes": {
+                "No Staminas or Super energies": 0.4
+            },
+            "aliases": [
+                "soul bearer",
+                "bear ur soul",
+                "bare ur soul",
+                "bare ur sole",
+                "bear you're soul",
+                "bare your soul",
+                "bare you're soul",
+                "bear your sole",
+                "bear you're sole",
+                "bare your sole",
+                "bare you're sole"
+            ]
+        },
+        "curse of the empty lord": {
+            "name": "Curse of the Empty Lord",
+            "price": 3.2,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8,
+                "HCIM": 2
+            },
+            "aliases": [
+                "curse of the empty lord",
+                "curse of empty lord",
+                "empty lord"
+            ]
+        },
+        "enchanted key": {
+            "name": "Enchanted Key",
+            "price": 4,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "enchanted key"
+            ]
+        },
+        "enter the abyss": {
+            "name": "Enter the Abyss",
+            "price": 1.6,
+            "notes": {},
+            "ironnotes": {},
+            "aliases": [
+                "abyss",
+                "abyss",
+                "abyss miniquest",
+                "abyss miniquest",
+                "abyss mini quest",
+                "abyss mini quest"
+            ]
+        },
+        "family pest": {
+            "name": "Family Pest",
+            "price": 1.2,
+            "notes": {},
+            "ironnotes": {},
+            "aliases": [
+                "family pest"
+            ]
+        },
+        "general's shadow": {
+            "name": "General's Shadow",
+            "price": 2,
+            "ironnotes": {
+                "Item gathering": 0.4,
+                "HCIM": 0.8
+            },
+            "aliases": [
+                "general's shadow",
+                "generals shadow",
+                "generals shadow",
+                "general shadow"
+            ]
+        },
+        "in search of knowledge": {
+            "name": "In Search of Knowledge",
+            "price": 4.4,
+            "notes": {
+                "No bursting or barraging": 2
+            },
+            "ironnotes": {},
+            "aliases": [
+                "search of knowledge",
+                "knowledge"
+            ]
+        },
+        "lair of tarn razorlor": {
+            "name": "Lair of Tarn Razorlor",
+            "price": 1.6,
+            "notes": {
+                "No slayer ring": 0.8
+            },
+            "ironnotes": {},
+            "aliases": [
+                "lair of tarn razorlor",
+                "tarn's lair",
+                "tarn razorlor",
+                "tarn's diary",
+                "razorlor",
+                "tarns lair",
+                "tarns diary",
+                "tarn lair",
+                "tarn diary",
+                "tarn"
+            ]
+        },
+        "skippy and the mogres": {
+            "name": "Skippy and the Mogres",
+            "price": 0.8,
+            "ironnotes": {
+                "Item gathering": 0.4
+            },
+            "aliases": [
+                "skippy and mogres",
+                "skippy & the mogres",
+                "skippy & mogres",
+                "skippy and the mogre",
+                "skippy and mogre",
+                "skippy & the mogre",
+                "skippy & mogre",
+                "skippy"
+            ]
+        },
+        "daddys home": {
+            "name": "Daddy's Home",
+            "price": 1.6,
+            "ironnotes": {
+                "Item gathering": 0.4,
+                "No Staminas or Super energies": 0.4
+            },
+            "aliases": [
+                "dad home",
+                "dad's home",
+                "dads home",
+                "daddy",
+                "Daddy home",
+                "daddys home uwu",
+                "uwu"
+            ]
+        },
+        "getting ahead": {
+            "name": "Getting Ahead",
+            "price": 0.8,
+            "ironnotes": {
+                "Item gathering": 0.4,
+                "No Fairy ring/farming guild tp": 0.8
+            },
+            "aliases": [
+                "get ahead",
+                "getting ahaed",
+                "get ahaed",
+                "getting head",
+                "ahaed",
+                "ahead",
+                "head",
+                "haed",
+                "ahead",
+                "ahaed"
+            ]
+        },
+        "all fired up": {
+            "name": "All Fired Up",
+            "price": 1.6,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "carnillean rising": {
+            "name": "Carnillean Rising",
+            "price": 2.8,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "curse of the black stone": {
+            "name": "Curse Of The Black Stone",
+            "price": 3.6,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "dimension of disaster": {
+            "name": "Dimension Of Disaster",
+            "price": 4.8,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "dishonor among thieves": {
+            "name": "Dishonor Among Thieves",
+            "price": 8,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "fate of the gods": {
+            "name": "Fate Of The Gods",
+            "price": 6,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "fur n seek": {
+            "name": "Fur N Seek",
+            "price": 5,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "fur n seek 2": {
+            "name": "Fur N Seek 2",
+            "price": 8,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "smoking kills": {
+            "name": "Smoking Kills",
+            "price": 3.2,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "curse of arrav": {
+            "name": "Curse Of Arrav",
+            "price": 3.6,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "tale of the muspah": {
+            "name": "Tale Of The Muspah",
+            "price": 3.6,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "diamond in the rough": {
+            "name": "Diamond In The Rough",
+            "price": 3.6,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "temple at sennestien": {
+            "name": "Temple At Sennestien",
+            "price": 6,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "whats mine is yours": {
+            "name": "Whats Mine Is Yours",
+            "price": 2,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "missing my mummy": {
+            "name": "Missing My Mummy",
+            "price": 3.2,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "defender of varrock": {
+            "name": "Defender Of Varrock",
+            "price": 4,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "stolen hearts": {
+            "name": "Stolen Hearts",
+            "price": 2,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "back to my roots": {
+            "name": "Back To My Roots",
+            "price": 2.4,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "back to the freezer": {
+            "name": "Back To The Freezer",
+            "price": 2.8,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "blood runs deep": {
+            "name": "Blood Runs Deep",
+            "price": 3.2,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "branches of darkmeyer": {
+            "name": "Branches Of Darkmeyer",
+            "price": 7.6,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "children of mah": {
+            "name": "Children Of Mah",
+            "price": 8,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "chosen commander": {
+            "name": "Chosen Commander",
+            "price": 5.6,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "clockwork syringe": {
+            "name": "Clockwork Syringe",
+            "price": 5.2,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "crocodile tears": {
+            "name": "Crocodile Tears",
+            "price": 4,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "elemental workshop 3": {
+            "name": "Elemental Workshop 3",
+            "price": 4.8,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "elemental workshop 4": {
+            "name": "Elemental Workshop 4",
+            "price": 4,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "glorius memories": {
+            "name": "Glorius Memories",
+            "price": 2.8,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "heart of stone": {
+            "name": "Heart Of Stone",
+            "price": 4,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "hero's welcome": {
+            "name": "Hero's Welcome",
+            "price": 4.8,
+            "ironnotes": {},
+            "aliases": [
+                "heros welcome"
+            ]
+        },
+        "hunt for red raktuber": {
+            "name": "Hunt For Red Raktuber",
+            "price": 3.2,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "kennith's concerns": {
+            "name": "Kennith's Concerns",
+            "price": 3.2,
+            "ironnotes": {},
+            "aliases": [
+                "kenniths concerns"
+            ]
+        },
+        "land of goblins": {
+            "name": "Land Of Goblins",
+            "price": 3.2,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "legacy of seergaze": {
+            "name": "Legacy Of Seergaze",
+            "price": 4,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "river of blood": {
+            "name": "River Of Blood",
+            "price": 7.2,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "lord of vampyrium": {
+            "name": "Lord Of Vampyrium",
+            "price": 9.6,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "mighty fall": {
+            "name": "Mighty Fall",
+            "price": 4.8,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "nomad's elegy": {
+            "name": "Nomad's Elegy",
+            "price": 5.6,
+            "ironnotes": {},
+            "aliases": [
+                "nomads elegy"
+            ]
+        },
+        "our man in the north": {
+            "name": "Our Man In The North",
+            "price": 2.4,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "prisoner of glouphrie": {
+            "name": "Prisoner Of Glouphrie",
+            "price": 1.6,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "salt in the wound": {
+            "name": "Salt In The Wound",
+            "price": 3.6,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "some like it cold": {
+            "name": "Some Like It Cold",
+            "price": 3.2,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "toktz-ket-dill": {
+            "name": "Toktz-Ket-Dill",
+            "price": 4.4,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "violet is blue": {
+            "name": "Violet Is Blue",
+            "price": 2,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "desperate times": {
+            "name": "Desperate Times",
+            "price": 4.4,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "violet is blue too": {
+            "name": "Violet Is Blue Too",
+            "price": 2.4,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "you are it": {
+            "name": "You Are It",
+            "price": 2,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "desperate measures": {
+            "name": "Desperate Measures",
+            "price": 6,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "in pyre need": {
+            "name": "In Pyre Need",
+            "price": 1.6,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "call of the ancestors": {
+            "name": "Call Of The Ancestors",
+            "price": 2.4,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "chef's assistant": {
+            "name": "Chef's Assistant",
+            "price": 1.6,
+            "ironnotes": {},
+            "aliases": [
+                "chefs assistant"
+            ]
+        },
+        "deadliest catch": {
+            "name": "Deadliest Catch",
+            "price": 2.4,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "do no evil": {
+            "name": "Do No Evil",
+            "price": 9.2,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "evil dave's big day out": {
+            "name": "Evil Dave's Big Day Out",
+            "price": 3.2,
+            "ironnotes": {},
+            "aliases": [
+                "evil daves big day out"
+            ]
+        },
+        "gower quest": {
+            "name": "Gower Quest",
+            "price": 7,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "kindred spirits": {
+            "name": "Kindred Spirits",
+            "price": 3.2,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "nomad's requiem": {
+            "name": "Nomad's Requiem",
+            "price": 4.8,
+            "ironnotes": {},
+            "aliases": [
+                "nomads requiem"
+            ]
+        },
+        "once upon a slime": {
+            "name": "Once Upon A Slime",
+            "price": 2.8,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "needle skips": {
+            "name": "Needle Skips",
+            "price": 2.4,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "bringing home the bacon": {
+            "name": "Bringing Home The Bacon",
+            "price": 1.6,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "benedict's world tour": {
+            "name": "Benedict's World Tour",
+            "price": 3.2,
+            "ironnotes": {
+                "Item gathering": 0.8,
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "benedict",
+                "benedicts world tour",
+                "benedicts world",
+                "benedicts tour"
+            ]
+        },
+        "boric's task i": {
+            "name": "Boric's Task I",
+            "price": 0.8,
+            "ironnotes": {
+                "Item gathering": 0.8,
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "borics task I",
+                "borics task 1",
+                "borics 1",
+                "boric's task 1",
+                "boric's task i"
+            ]
+        },
+        "boric's task ii": {
+            "name": "Boric's Task II",
+            "price": 1.6,
+            "ironnotes": {
+                "Item gathering": 0.8,
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "borics task II",
+                "borics task 2",
+                "borics 2",
+                "boric's task 2",
+                "boric's task ii"
+            ]
+        },
+        "boric's task iii": {
+            "name": "Boric's Task III",
+            "price": 1.6,
+            "ironnotes": {
+                "Item gathering": 0.8,
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "borics task III",
+                "borics task 3",
+                "borics 3",
+                "boric's task 3",
+                "boric's task iii"
+            ]
+        },
+        "curse of zaros": {
+            "name": "Curse of Zaros",
+            "price": 4,
+            "ironnotes": {
+                "Item gathering": 0.8,
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "curse of zaros",
+                "zaros curse",
+                "curse zaros"
+            ]
+        },
+        "damage control": {
+            "name": "Damage Control",
+            "price": 2.8,
+            "ironnotes": {
+                "Item gathering": 0.8,
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "control damage"
+            ]
+        },
+        "desert slayer dungeon": {
+            "name": "Desert Slayer Dungeon",
+            "price": 2,
+            "ironnotes": {
+                "Item gathering": 0.8,
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "desert dungeon",
+                "desert slayer dungeon"
+            ]
+        },
+        "doric's task i": {
+            "name": "Doric's Task I",
+            "price": 0.8,
+            "ironnotes": {
+                "Item gathering": 0.8,
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "dorics task I",
+                "dorics task 1",
+                "dorics 1",
+                "doric's task 1",
+                "doric's task i"
+            ]
+        },
+        "doric's task ii": {
+            "name": "Doric's Task II",
+            "price": 0.8,
+            "ironnotes": {
+                "Item gathering": 0.8,
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "dorics task II",
+                "dorics task 2",
+                "dorics 2",
+                "doric's task 2",
+                "doric's task ii"
+            ]
+        },
+        "doric's task iii": {
+            "name": "Doric's Task III",
+            "price": 0.8,
+            "ironnotes": {
+                "Item gathering": 0.8,
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "dorics task III",
+                "dorics task 3",
+                "dorics 3",
+                "doric's task 3",
+                "doric's task iii"
+            ]
+        },
+        "doric's task iv": {
+            "name": "Doric's Task IV",
+            "price": 0.8,
+            "ironnotes": {
+                "Item gathering": 0.8,
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "dorics task IV",
+                "dorics task 4",
+                "dorics 4",
+                "doric's task 4",
+                "doric's task iv"
+            ]
+        },
+        "doric's task v": {
+            "name": "Doric's Task V",
+            "price": 2,
+            "ironnotes": {
+                "Item gathering": 0.8,
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "dorics task V",
+                "dorics task 5",
+                "dorics 5",
+                "doric's task 5",
+                "doric's task v"
+            ]
+        },
+        "doric's task vi": {
+            "name": "Doric's Task VI",
+            "price": 2,
+            "ironnotes": {
+                "Item gathering": 0.8,
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "dorics task VI",
+                "dorics task 6",
+                "dorics 6",
+                "doric's task 6",
+                "doric's task vi"
+            ]
+        },
+        "doric's task vii": {
+            "name": "Doric's Task VII",
+            "price": 0.8,
+            "ironnotes": {
+                "Item gathering": 0.8,
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "dorics task VII",
+                "dorics task 7",
+                "dorics 7",
+                "doric's task 7",
+                "doric's task vii"
+            ]
+        },
+        "doric's task viii": {
+            "name": "Doric's Task VIII",
+            "price": 4,
+            "ironnotes": {
+                "Item gathering": 0.8,
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "dorics task VIII",
+                "dorics task 8",
+                "dorics 8",
+                "doric's task 8",
+                "doric's task viii"
+            ]
+        },
+        "eye for an eye": {
+            "name": "Eye for an Eye",
+            "price": 0.8,
+            "ironnotes": {
+                "Item gathering": 0.8,
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "eye for eye"
+            ]
+        },
+        "father and son": {
+            "name": "Father and Son",
+            "price": 0.8,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "father & son"
+            ]
+        },
+        "final destination": {
+            "name": "Final Destination",
+            "price": 2,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": []
+        },
+        "flag fall": {
+            "name": "Flag Fall",
+            "price": 0.8,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": []
+        },
+        "flashback": {
+            "name": "Flashback",
+            "price": 1.6,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": []
+        },
+        "foreshadowing": {
+            "name": "Foreshadowing",
+            "price": 2,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": []
+        },
+        "fortunes": {
+            "name": "Fortunes ",
+            "price": 1.6,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": []
+        },
+        "from tiny acorns": {
+            "name": "From Tiny Acorns",
+            "price": 0.8,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "tiny acorns"
+            ]
+        },
+        "ghosts from the past": {
+            "name": "Ghosts from the Past",
+            "price": 1.6,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "ghost from past",
+                "ghost from the past",
+                "ghosts from past"
+            ]
+        },
+        "guild of our own": {
+            "name": "Guild of Our Own ",
+            "price": 1.6,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "our own guild",
+                "guild of our own"
+            ]
+        },
+        "harbinger": {
+            "name": "Harbinger",
+            "price": 2,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": []
+        },
+        "head of the family": {
+            "name": "Head of the Family",
+            "price": 1.6,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "head of family"
+            ]
+        },
+        "helping laniakea": {
+            "name": "Helping Laniakea",
+            "price": 2.8,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "laniakea"
+            ]
+        },
+        "hopespear's will": {
+            "name": "Hopespear's Will",
+            "price": 1.6,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "hopespears will"
+            ]
+        },
+        "hunt for surok": {
+            "name": "Hunt for Surok",
+            "price": 2.4,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "hunt for surok",
+                "hunt surok",
+                "hunting surok"
+            ]
+        },
+        "in memory of the myreque": {
+            "name": "In Memory of the Myreque",
+            "price": 0.4,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "Memory of the Myreque"
+            ]
+        },
+        "koschei's troubles": {
+            "name": "Koschei's Troubles",
+            "price": 2,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "koscheis troubles",
+                "koscheis trouble",
+                "koschei troubles"
+            ]
+        },
+        "lost her marbles": {
+            "name": "Lost Her Marbles",
+            "price": 3.2,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": []
+        },
+        "lost toys": {
+            "name": "Lost Toys",
+            "price": 3.2,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "lost toys"
+            ]
+        },
+        "mahjarrat memories": {
+            "name": "Mahjarrat Memories",
+            "price": 30,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "Mahjarrat Memory"
+            ]
+        },
+        "nadir": {
+            "name": "Nadir",
+            "price": 4.4,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": []
+        },
+        "one foot in the grave": {
+            "name": "One Foot in the Grave",
+            "price": 1.6,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "foot in the grave"
+            ]
+        },
+        "raksha, the shadow colossus": {
+            "name": "Raksha, the Shadow Colossus",
+            "price": 0.8,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "shadow colossus",
+                "raksha",
+                "raksha shadow colossus",
+                "shadow colossus"
+            ]
+        },
+        "rebuilding edgeville": {
+            "name": "Rebuilding Edgeville",
+            "price": 0.8,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "rebuild edgeville",
+                "edgeville",
+                "edgeville rebuild"
+            ]
+        },
+        "purple cat": {
+            "name": "Purple Cat",
+            "price": 0.8,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": []
+        },
+        "spiritual enlightenment": {
+            "name": "Spiritual Enlightenment",
+            "price": 0.4,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": []
+        },
+        "sins of the father (miniquest)": {
+            "name": "Sins of the Father (miniquest)",
+            "price": 1.2,
+            "notes": {
+                "Payment per day": 0.4,
+                "Gathering per day": 0.4
+            },
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "sins of the father miniquest",
+                "miniquest sins of the father",
+                "sins of father"
+            ]
+        },
+        "tales of nomad": {
+            "name": "Tales of Nomad",
+            "price": 3.2,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "nomad tales",
+                "tale of nomad"
+            ]
+        },
+        "tales of the god wars": {
+            "name": "Tales of the God Wars",
+            "price": 3.6,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "tales of god wars",
+                "tale of the god wars",
+                "tale god wars"
+            ]
+        },
+        "thok it to 'em": {
+            "name": "Thok It To 'Em",
+            "price": 3.2,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "Thok It To Em",
+                "Thok It To them"
+            ]
+        },
+        "thok your block off": {
+            "name": "Thok Your Block Off",
+            "price": 3.2,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "thok your block of",
+                "thok ur block off"
+            ]
+        },
+        "three's company": {
+            "name": "Three's Company",
+            "price": 2.4,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "threes company"
+            ]
+        },
+        "tortle combat": {
+            "name": "Tortle Combat",
+            "price": 1.6,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": []
+        },
+        "tuai leit's own": {
+            "name": "Tuai Leit's Own",
+            "price": 2.8,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "Tuai Leits Own"
+            ]
+        },
+        "vengeance": {
+            "name": "Vengeance",
+            "price": 2.4,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": []
+        },
+        "wandering ga'al": {
+            "name": "Wandering Ga'al",
+            "price": 0.8,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "wandering gaal"
+            ]
+        },
+        "jed hunter": {
+            "name": "Jed Hunter",
+            "price": 1.2,
+            "ironnotes": {
+                "No Staminas or Super energies": 0.8
+            },
+            "aliases": [
+                "jed hunters"
+            ]
+        },
+        "as a first resort": {
+            "name": "As a First Resort",
+            "price": 2.8,
+            "ironnotes": {},
+            "aliases": [
+                "first resort",
+                "first resort",
+                "as first resort"
+            ]
+        },
+        "azzanadra's quest": {
+            "name": "Azzanadra's Quest",
+            "price": 7.2,
+            "ironnotes": {},
+            "aliases": [
+                "azzanadras quest",
+                "azzanandras quest",
+                "azzanandra quest",
+                "azzanandra",
+                "azzanadra"
+            ]
+        },
+        "beneath cursed tides": {
+            "name": "Beneath Cursed Tides",
+            "price": 2.8,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "blood pact": {
+            "name": "blood pact, the",
+            "price": 0.8,
+            "ironnotes": {},
+            "aliases": [
+                "blood pact",
+                "pact of blood"
+            ]
+        },
+        "branches of darkmeyer": {
+            "name": "Branches of Darkmeyer, the",
+            "price": 8.4,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "brink of extinction": {
+            "name": "Brink of Extinction, the",
+            "price": 8.4,
+            "ironnotes": {},
+            "aliases": [
+                "brink of extinction",
+                "brink extinction",
+                "brink extinction"
+            ]
+        },
+        "broken home": {
+            "name": "Broken Home",
+            "price": 4,
+            "ironnotes": {
+                "If you never did the quest and want all 3 challenges": 10
+            },
+            "aliases": []
+        },
+        "buyers and cellars": {
+            "name": "Buyers and Cellars",
+            "price": 0.8,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "city of senntisten": {
+            "name": "City of Senntisten",
+            "price": 7.6,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "dealing with scabaras": {
+            "name": "Dealing with Scabaras",
+            "price": 3.6,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "death of chivalry": {
+            "name": "Death of Chivalry, the",
+            "price": 3.2,
+            "ironnotes": {},
+            "aliases": [
+                "death of chivalry"
+            ]
+        },
+        "dishonour among thieves": {
+            "name": "Dishonour among Thieves",
+            "price": 7.6,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "elder kiln": {
+            "name": "Elder Kiln, the",
+            "price": 4,
+            "ironnotes": {},
+            "aliases": [
+                "elder kiln"
+            ]
+        },
+        "elemental workshop III": {
+            "name": "Elemental Workshop III",
+            "price": 7.2,
+            "ironnotes": {},
+            "aliases": [
+                "elemental workshop 3",
+                "workshop 3",
+                "workshop elemental 3"
+            ]
+        },
+        "elemental workshop IV": {
+            "name": "Elemental Workshop IV",
+            "price": 4,
+            "ironnotes": {},
+            "aliases": [
+                "elemental workshop 4",
+                "workshop 4",
+                "workshop elemental 4"
+            ]
+        },
+        "fairytale iii - battle at ork's rift": {
+            "name": "Fairytale III - Battle at Ork's Rift",
+            "price": 4,
+            "ironnotes": {},
+            "aliases": [
+                "fairytale 3 - battle at ork's rift",
+                "fairytale three",
+                "fairytale part iii",
+                "fairytale part 3",
+                "fairytale part three",
+                "fairy tale part three",
+                "fairytale 3",
+                "fairy tale 3",
+                "fairy tale three",
+                "fairytale iii",
+                "fairytale 3",
+                "fairytale three",
+                "fairy tale iii",
+                "fairy tale 3",
+                "fairy tale three",
+                "ft3",
+                "fairytale pt 3",
+                "fairytale pt iii",
+                "fairytale pt three",
+                "fairy tale pt 3",
+                "fairy tale pt iii",
+                "fairy tale pt three",
+                "fairytale pt3",
+                "fairy tale pt3",
+                "faery tale 3",
+                "faery tale iii",
+                "faery tale three",
+                "faery tail 3",
+                "faery tail iii",
+                "faery tail three",
+                "faerie tale 3",
+                "faerie tale iii",
+                "faerie tale three",
+                "faerie tail 3",
+                "faerie tail iii",
+                "faerie tail three"
+            ]
+        },
+        "firemaker's curse": {
+            "name": "Firemaker's Curse, the",
+            "price": 2.8,
+            "ironnotes": {},
+            "aliases": [
+                "firemaker curse",
+                "firemakers curse",
+                "firemaker curse",
+                "firemaker's curse"
+            ]
+        },
+        "forgiveness of a chaos dwarf": {
+            "name": "Forgiveness of a Chaos Dwarf",
+            "price": 2.8,
+            "ironnotes": {},
+            "aliases": [
+                "dwarf forgiveness",
+                "forgiveness of a dwarf",
+                "forgiveness dwarf",
+                "forgiveness of chaos dwarf"
+            ]
+        },
+        "glorious memories": {
+            "name": "Glorious Memories",
+            "price": 3.2,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "gunnar's ground": {
+            "name": "Gunnar's Ground",
+            "price": 1.6,
+            "ironnotes": {},
+            "aliases": [
+                "gunnars ground",
+                "gunnar ground",
+                "ground gunnar"
+            ]
+        },
+        "heartstealer": {
+            "name": "heartstealer",
+            "price": 2,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "hunt for the red raktuber": {
+            "name": "Hunt for the Red Raktuber",
+            "price": 2.8,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "impressing the locals": {
+            "name": "Impressing the Locals",
+            "price": 0.8,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "jack of spades": {
+            "name": "Jack of Spades, the",
+            "price": 0.8,
+            "ironnotes": {},
+            "aliases": [
+                "jack of spades",
+                "jack spades",
+                "jack spades"
+            ]
+        },
+        "king of the dwarves": {
+            "name": "King of the Dwarves",
+            "price": 4,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "land of the goblins": {
+            "name": "Land of the Goblins",
+            "price": 4,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "let them eat pie": {
+            "name": "Let Them Eat Pie",
+            "price": 1.2,
+            "ironnotes": {},
+            "aliases": [
+                "eat pie",
+                "eating pie",
+                "let em eat pie"
+            ]
+        },
+        "light within": {
+            "name": "Light Within, The",
+            "price": 8,
+            "ironnotes": {},
+            "aliases": [
+                "light within the",
+                "light within",
+                "within light"
+            ]
+        },
+        "love story": {
+            "name": "Love Story",
+            "price": 2.8,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "meeting history": {
+            "name": "Meeting History",
+            "price": 2,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "missing presumed death": {
+            "name": "Missing, Presumed Death",
+            "price": 1.2,
+            "ironnotes": {},
+            "aliases": [
+                "missing presumed death",
+                "msd",
+                "presumed death",
+                "missing, presumed death"
+            ]
+        },
+        "myths of the white land": {
+            "name": "Myths of the White Land",
+            "price": 2,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "one of a kind": {
+            "name": "One of a Kind",
+            "price": 2,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "one piercing note": {
+            "name": "One Piercing Note",
+            "price": 2.4,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "path of glouphrie": {
+            "name": "Path of Glouphrie, the",
+            "price": 2.8,
+            "ironnotes": {},
+            "aliases": [
+                "path of glouphry",
+                "pog",
+                "path glouphrie",
+                "path of glouphrie"
+            ]
+        },
+        "perils of ice mountain": {
+            "name": "Perils of Ice Mountain",
+            "price": 1.2,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "phite club": {
+            "name": "'Phite Club",
+            "price": 2,
+            "ironnotes": {},
+            "aliases": [
+                "'phite club",
+                "´phite club",
+                "club phite"
+            ]
+        },
+        "pieces of hate": {
+            "name": "Pieces of Hate",
+            "price": 2.8,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "plagues end": {
+            "name": "Plague's End",
+            "price": 14,
+            "ironnotes": {},
+            "aliases": [
+                "plague's end"
+            ]
+        },
+        "prisoner of glouphrie": {
+            "name": "Prisoner of Glouphrie, the",
+            "price": 2.4,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "quiet before the swarm": {
+            "name": "Quiet before the Swarm",
+            "price": 2.8,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "ritual of the mahjarrat": {
+            "name": "Ritual of the Mahjarrat",
+            "price": 14,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "rocking out": {
+            "name": "Rocking Out",
+            "price": 5.6,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "rune mechanics": {
+            "name": "Rune Mechanics",
+            "price": 1.6,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "rune memories": {
+            "name": "Rune Memories",
+            "price": 2.4,
+            "ironnotes": {},
+            "aliases": [
+                "rune memoriers",
+                "rune memory"
+            ]
+        },
+        "shadow over ashdale": {
+            "name": "Shadow over Ashdale, a",
+            "price": 1.6,
+            "ironnotes": {},
+            "aliases": [
+                "shadow over ashdale",
+                "shadow over ass dale"
+            ]
+        },
+        "sliskes endgame": {
+            "name": "Sliske's Endgame",
+            "price": 12.8,
+            "ironnotes": {},
+            "aliases": [
+                "slikes's endgame"
+            ]
+        },
+        "song from the depths": {
+            "name": "Song from the depths",
+            "price": 4,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "spirit of summer": {
+            "name": "Spirit of Summer",
+            "price": 3.6,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "summers end": {
+            "name": "Summer's End",
+            "price": 3.6,
+            "ironnotes": {},
+            "aliases": [
+                "summer's end"
+            ]
+        },
+        "swept away": {
+            "name": "Swept Away",
+            "price": 1.2,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "temple of senntisten": {
+            "name": "Temple of Senntisten, the",
+            "price": 4,
+            "ironnotes": {},
+            "aliases": [
+                "temple of senntisten"
+            ]
+        },
+        "void dance": {
+            "name": "Void Dance, a",
+            "price": 6,
+            "ironnotes": {},
+            "aliases": [
+                "void dance"
+            ]
+        },
+        "void stares back": {
+            "name": "Void Stares back, The",
+            "price": 6,
+            "ironnotes": {},
+            "aliases": [
+                "void stares back"
+            ]
+        },
+        "what's mine is yours": {
+            "name": "What's Mine is Yours",
+            "price": 1.2,
+            "ironnotes": {},
+            "aliases": [
+                "whats mine is yours"
+            ]
+        },
+        "while guthix sleeps": {
+            "name": "While Guthix Sleeps",
+            "price": 12,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "within the light": {
+            "name": "Whitin the Light",
+            "price": 2.8,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "wolf whistle": {
+            "name": "Wolf Whistle",
+            "price": 1.2,
+            "ironnotes": {},
+            "aliases": []
+        },
+        "night at the theatre": {
+            "name": "night at the Theatre",
+            "price": 4.8,
+            "ironnotes": {},
+            "aliases": [
+                "night at the theatre",
+                "night at theatre",
+                "night at the theater",
+                "night at the theater"
+            ]
+        },
+        "vault of shadows": {
+            "name": "Vault of Shadows",
+            "price": 8,
+            "ironnotes": {},
+            "aliases": [
+                "vault of shadows",
+                "vault of shadow",
+                "vault of shadow",
+                "vault of shadow"
+            ]
+        },
+        "battle of the monolith": {
+            "name": "Battle of the Monolith",
+            "price": 6,
+            "ironnotes": {},
+            "aliases": [
+                "battle of monolith",
+                "battle of the monolite",
+                "battle the monolith"
+            ]
+        }
+    }
+}
