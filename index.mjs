@@ -1,5 +1,5 @@
 import { OpenAI } from "openai";
-import { pool, user_chat_array, usermsg, botmsg, delpool } from "./database/db.mjs"
+import { initializePool, pool, user_chat_array, delpool } from "./database/db.mjs"
 import { BaseGuildEmojiManager, Client, GatewayIntentBits, InteractionType, TextChannel } from "discord.js";
 import { ChatGPT } from "discord-chat-gpt";
 import { commands } from "./slash_commands/register_command.mjs";
@@ -10,7 +10,7 @@ import { openai_functions } from "./imports/functions/openai_functions.mjs"
 import { config } from "dotenv";
 config({ path: process.ENV })
 
-
+initializePool()
  
 
 //INITIALIZATIONS OF VARIABLES
