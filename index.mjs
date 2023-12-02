@@ -19,7 +19,7 @@ let lvlPrice, xp, total, semiPrice, check, totalxp = 0, completionResponse, quot
 
 conversationHistory = baseConversation;
 
-//--------------------------
+//-----------------------------
 //DISCORD APPLICATION START
 const client = new Client({
     intents: [
@@ -83,6 +83,7 @@ async function runCompletion(message) {
             history.includes("night at the theatre") || history.includes("vault of shadows") || history.includes("battle of the monolth ")
 
         ) {
+            try{
 
             console.log("skill and quest function run")
             const completion = await gptClient.chat.completions.create({
@@ -118,7 +119,11 @@ async function runCompletion(message) {
                     console.log("COMPLETION RESPONSE Inside the function: ", completionResponse);
                     // conversationHistory.push({role:"system" , content: completionResponse})
                 } catch (error) {
-                    console.error("Error in sales_manager:", error);
+                    // console.error("Error in sales_manager:", error);
+                        if(error.code == 503){
+                            console.log("Retry! and ask for prices one by one. One single item at a time. Like price for corsair curse ")
+                        }
+                    
                 }
 
 
@@ -140,6 +145,7 @@ async function runCompletion(message) {
                     questResponse = await quest(completionArguments.questName, completionArguments.quantity);
                     console.log(" quest response: ", questResponse);
 
+
                     // Handle the sales_manager response and assign it to completionResponse
                     completionResponse = questResponse;
                     console.log("COMPLETION RESPONSE Inside the function: ", completionResponse);
@@ -156,7 +162,12 @@ async function runCompletion(message) {
                 console.log("COMPLETION RESPONSE Inside the function: ", completionResponse)
                 chathistory.push({ role: 'user', content: completionResponse });
             }
-
+        }
+        catch(error){
+            if(error.code = 503){
+                console.log("Retry! and ask for prices one by one. One single item at a time. Like price for corsair curse ")
+            }
+        }
         }
         else {
 
@@ -191,13 +202,10 @@ async function runCompletion(message) {
 };
 
 
-
-
 //------------------------
 // Event handler for incoming messages
 client.on("messageCreate", async function handleMessage(message) {
     // Empty the chathistory array
-
     if (!message.guild || message.author.bot) return;
     const channel = message.guild.channels.cache.get(process.env.RUNESCAPE);
     if (!channel) return;
@@ -205,7 +213,6 @@ client.on("messageCreate", async function handleMessage(message) {
     let category = message.channel.parentId;
 
     if (category === process.env.TICKET_CATEGORY) {
-
 
         const channel = message.guild.channels.cache.get(channelid);
         if (!channel) return;
@@ -226,20 +233,13 @@ client.on("messageCreate", async function handleMessage(message) {
                     content: ` ${completionResponse}`,
 
                 });
-
-
-
             });
             //Connecting the database
-
             pool(userId, history, completionResponse);
             //-------------------------
-
         }
     }
 });
-
-
 
 //------------------------
 //USING SLASH COMMANDS
@@ -252,7 +252,6 @@ client.on('interactionCreate', async interaction => {
         conversationHistory = baseConversation;
         await interaction.reply('Your Chat ticket is closed');
     }
-
     else if (interaction.commandName === 'delete') {
         delpool(userId);
         await interaction.reply(`${user_name} Chat history from database deleted`);
@@ -261,14 +260,14 @@ client.on('interactionCreate', async interaction => {
 //------------------------
 
 
+
+
 //LOGINTO THE BOT
 client.login(process.env.BOT_TOKEN);
 //----------------------------------------------------------------------
 
 //FUNCTION BODIES AND DECLARATION
-
 async function quoteskill(skillName, lvlStart, lvlEnd) {
-
     let resp;
     for (let i = lvlStart; i >= 1; i--) {
         let stlvlPrice = dataSkill.skills[skillName].default[i];
@@ -285,7 +284,6 @@ async function quoteskill(skillName, lvlStart, lvlEnd) {
             break;
         }
     }
-
     xp = dataxp.experience[lvlStart + 1].experience_difference;
     totalxp += xp;
     total = lvlPrice * xp;
@@ -305,14 +303,12 @@ async function quoteskill(skillName, lvlStart, lvlEnd) {
             lvlPrice = dataSkill.skills[skillName].default[j];
             semiPrice = lvlPrice * dataxp.experience[j].experience_difference;
             total += semiPrice;
-            // total = parseFloat(total);
-            // total = total.toFixed(2);
         }
     }
     console.log("TOTAL PRICE =>  ", total);
     console.log("TOTAL XP =>  ", totalxp);
     // return total;
-    resp = `The total price of skill ${skillName} from level ${lvlStart} to level ${lvlEnd} is ${total}$`
+    resp = `Total experience required: ${totalxp}. The total price of skill ${skillName} from level ${lvlStart} to level ${lvlEnd} is ${total}$`
     return resp;
 };
 
@@ -320,22 +316,14 @@ async function quoteskill(skillName, lvlStart, lvlEnd) {
 function quest(questName) {
     string = strings = '';
     try {
-        // console.log(questName)
-        // console.log(questName[0].name)
-        // console.log(questName[0].quantity)
 
         let questData
         let quests
         let TotalPrice
         let found = false;
-        // for (let key in qs.quest) {
-        //     console.log(key, ",")
-        // }
         let len = questName.length;
-        // console.log("quest number: ", len);
         for (let i = 0; i < len; i++) {
             let questNames = questName[i].name;
-            // console.log(questNames)
             for (let key in qs.quest) {
                 key = key.toLowerCase();
                 questNames = questNames.toLowerCase();
@@ -344,31 +332,20 @@ function quest(questName) {
                     questData = qs.quest[key];
                     quests = questData.price;
                     TotalPrice = quests * questName[i].quantity;
-
-
                 }
-
             }
-            // console.log(`Price for ${questName[i].quantity} ${questNames} is ${TotalPrice}$ . One single ${questNames} price is ${questData.price}$`)
             string = `\n ${questName[i].quantity} ${questNames} cost is ${TotalPrice}$. Total Price with upcharges are ${TotalPrice + 0.8}$
             `
             strings = strings + string;
-
         }
-        // strings = strings + `Do you need upcharges? \nupcharges for easy = 0.8$
-        // upcharges for medium  = 0.8$
-        // upcharges for hard = 0.8$
-        // upcharges for elite  = 1.2$`
         console.log(strings)
         return strings;
         if (!found) {
             string = `Quest "${questName}" not found.`;
         }
-
     }
     catch (error) {
         console.log("ERROR IN THE QUEST: ", error)
     }
 };
-
 export { history, userId, completionResponse }
