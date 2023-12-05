@@ -10,6 +10,7 @@ const pool = (userId, completionResponse, history) => {
         user: process.env.DB_USER,
         database: process.env.DB_DATABASE,
         password: process.env.DB_PASSWORD,
+        PORT: process.env.MYSQLPORT
     });
 
     console.log("Database connected");
