@@ -44,7 +44,7 @@ baseConversation.push(
     {
         role: "system",
         content: `" Remeber: whenever someone ask for misc 
-        STEP 1: ask user How many 'misc_content' you want. content may be herbsack , full infinity, zeah, lovakengj etc.
+        STEP 1: ask user How many 'misc_content' you want. content may be herbsack , full infinity, zeah, lovakengj etc. ${misc}
          "`
     },
     {
