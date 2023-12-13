@@ -2,7 +2,7 @@ let openai_functions = [];
 openai_functions = [
     {
         name: "quoteskill",
-        description: "tell the price of skills for runescape. skills may be starting from rs3, cooking, farming, attacks, agility,rs3agility,rs3invention,rs3slayer,rs3attack,rs3construction,crafting,defence,rs3divination,constructions , firemaking, fishing, rs3fishing, fletching, herblore, rs3herblore, hunter, rs3hunter, rs3magic, magic, mining, rs3mining,runecrafting,smithing,strength,thieving,woodcutting,  etc. Or the question may be like : I want to level up my Agility skill from level 50 to 70 ",
+        description: "tell the price of skills for runescape. skills may be starting from rs3, cooking, farming, attacks, agility,rs3agility,rs3invention,rs3slayer,rs3attack,rs3construction,crafting,defence,rs3divination,constructions , firemaking, fishing, rs3fishing, fletching, herblore, rs3herblore, hunter, rs3hunter, rs3magic, magic, mining, rs3mining,runecrafting,smithing,strength,thieving,woodcutting,  etc. Or the question may be like : I want to level up my Agility skill from level 50 to 70.level up construction, attack, agility etc from 1 to 10",
         parameters: {
             type: "object",
             properties: {
