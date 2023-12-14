@@ -176,7 +176,15 @@ async function runCompletion(message) {
                         console.error("Error sending message:", err);
                     });
                 }
-                else{
+                 else if (error.code === 'null') {
+                    // Send a message automatically
+                    channel.sendTyping().then(() => {
+                        channel.send(`Can you please rewrite the question in a different way or with something specific I am facing difficulty while processing it.`);
+                    }).catch((err) => {
+                        console.error("Error sending message:", err);
+                    });
+                }
+                else {
                     completionResponse = "Please enter each category seperately like if you want skill level up then just ask for skills not any other item like quest or misc etc. "
                 }
             }
@@ -202,8 +210,8 @@ async function runCompletion(message) {
 
             }
             catch (error) {
-                console.log("Error in general prompt : ", error); 
-                
+                console.log("Error in general prompt : ", error);
+
                 if (error.code == 503) {
                     console.log("Retry! and ask for prices one by one. One single item at a time. Like price for corsair curse ");
                 } else if (error.code === 'insufficient_quota') {
@@ -230,73 +238,73 @@ async function runCompletion(message) {
 //------------------------
 // Event handler for incoming messages
 client.on("messageCreate", async function handleMessage(message) {
-    try{
+    try {
 
-    
-    // Empty the chathistory array
-    if (!message.guild || message.author.bot) return;
-    const channel = message.guild.channels.cache.get(process.env.RUNESCAPE);
-    if (!channel) return;
-    let channelid = message.channel.id;
-    let category = message.channel.parentId;
 
-    if (category === process.env.TICKET_CATEGORY) {
-
-        const channel = message.guild.channels.cache.get(channelid);
+        // Empty the chathistory array
+        if (!message.guild || message.author.bot) return;
+        const channel = message.guild.channels.cache.get(process.env.RUNESCAPE);
         if (!channel) return;
-        if (message.channel.id === channel.id) {
-            userId = message.author.id;
-            console.log("Message created by : ", userId)
-            console.log(message.author.username);
-            user_name = message.author.username;
-            const input = message.content;
-            // Send the user' s message to the assistant
-            await runCompletion(input);
-            console.log("Latest: ", completionResponse);
-            channel.sendTyping().then((resolve) => {
-                resolve;
-                message.reply({
-                    content: ` ${completionResponse}`,
+        let channelid = message.channel.id;
+        let category = message.channel.parentId;
 
+        if (category === process.env.TICKET_CATEGORY) {
+
+            const channel = message.guild.channels.cache.get(channelid);
+            if (!channel) return;
+            if (message.channel.id === channel.id) {
+                userId = message.author.id;
+                console.log("Message created by : ", userId)
+                console.log(message.author.username);
+                user_name = message.author.username;
+                const input = message.content;
+                // Send the user' s message to the assistant
+                await runCompletion(input);
+                console.log("Latest: ", completionResponse);
+                channel.sendTyping().then((resolve) => {
+                    resolve;
+                    message.reply({
+                        content: ` ${completionResponse}`,
+
+                    });
                 });
-            });
-            //Connecting the database
-            pool(userId, history, completionResponse);
-            //-------------------------
+                //Connecting the database
+                pool(userId, history, completionResponse);
+                //-------------------------
+            }
         }
     }
-}
-catch(error){
-    console.log(error.code)
-if(error.code === 40060 ){
-    console.log("Database of this user is deleted")
-}
-}
+    catch (error) {
+        console.log(error.code)
+        if (error.code === 40060) {
+            console.log("Database of this user is deleted")
+        }
+    }
 });
 
 //------------------------
 //USING SLASH COMMANDS
 client.on('interactionCreate', async interaction => {
-    try{
+    try {
 
         if (!interaction.isChatInputCommand()) return;
-        
+
         if (interaction.commandName === 'close') {
-        conversationHistory = [];
-        conversationHistory.length = 0;
-        conversationHistory = baseConversation;
-        await interaction.reply('Your Chat ticket is closed');
+            conversationHistory = [];
+            conversationHistory.length = 0;
+            conversationHistory = baseConversation;
+            await interaction.reply('Your Chat ticket is closed');
+        }
+        else if (interaction.commandName === 'delete') {
+            delpool(userId);
+            await interaction.reply(`${user_name} Chat history from database deleted`);
+        }
+    } catch (error) {
+        console.log(error.code)
+        if (error.code === 40060) {
+            console.log("Database of this user is deleted")
+        }
     }
-    else if (interaction.commandName === 'delete') {
-        delpool(userId);
-        await interaction.reply(`${user_name} Chat history from database deleted`);
-    }
-}catch(error){
-    console.log(error.code)
-if(error.code === 40060 ){
-    console.log("Database of this user is deleted")
-}
-}
 });
 //------------------------
 
@@ -360,47 +368,91 @@ async function quoteskill(skillName, lvlStart, lvlEnd) {
     // let extras = dataSkill.skills[skillName].nmz[1];
     // console.log("nmz = " , extras);
     let resp;
+    let lvlPrice;
+    let stlvlPrice;
+    stlvlPrice = dataSkill.skills[skillName].default[i];
     for (let i = lvlStart; i >= 1; i--) {
-        let stlvlPrice = dataSkill.skills[skillName].default[i];
-        if (stlvlPrice == undefined) {
-            console.log("undefined")
-        }
-        else if (dataSkill.skills[skillName].default[1] == false) {
-            resp = "Please message <#837416583684685864> for a quote."
+        if (skillName === 'attack' || skillName === 'defence' || skillName === 'strength') {
+            console.log("inside nmz's section")
+            let extras = dataSkill.skills[skillName].nmz[i];
+            stlvlPrice = extras;
+            lvlPrice = dataSkill.skills[skillName].nmz[i];
+console.log("NMZ price: " , lvlPrice);
+            xp = dataxp.experience[lvlStart + 1].experience_difference;
+            totalxp += xp;
+            total = lvlPrice * xp;
+            console.log("lvlPrice: ", lvlPrice);
+            console.log("xp:", xp);
+            for (let j = lvlStart + 2; j <= lvlEnd; j++) {
+                check = dataSkill.skills[skillName].nmz[j];
+                if (check == undefined) {
+                    xp = dataxp.experience[j].experience_difference;
+                    totalxp += xp;
+                    semiPrice = lvlPrice * dataxp.experience[j].experience_difference;
+                    total += semiPrice;
+                }
+                else {
+                    xp = dataxp.experience[j].experience_difference;
+                    totalxp += xp;
+                    lvlPrice = dataSkill.skills[skillName].nmz[j];
+                    semiPrice = lvlPrice * dataxp.experience[j].experience_difference;
+                    total += semiPrice;
+                }
+            }
+            console.log("TOTAL PRICE =>  ", total);
+            console.log("TOTAL XP =>  ", totalxp);
+            // return total;
+            resp = `Total experience required: ${totalxp}. The total price of skill ${skillName} from level ${lvlStart} to level ${lvlEnd} is ${total}$`
             return resp;
+
+
         }
+
+
+
         else {
-            lvlPrice = dataSkill.skills[skillName].default[i];
-            console.log("lvlPrice0:", lvlPrice);
-            break;
+
+
+            if (stlvlPrice == undefined) {
+                console.log("undefined")
+            }
+            else if (dataSkill.skills[skillName].default[1] == false) {
+                resp = "Please message <#837416583684685864> for a quote."
+                return resp;
+            }
+            else {
+                lvlPrice = dataSkill.skills[skillName].default[i];
+                console.log("lvlPrice0:", lvlPrice);
+                break;
+            }
         }
+        xp = dataxp.experience[lvlStart + 1].experience_difference;
+        totalxp += xp;
+        total = lvlPrice * xp;
+        console.log("lvlPrice: ", lvlPrice);
+        console.log("xp:", xp);
+        for (let j = lvlStart + 2; j <= lvlEnd; j++) {
+            check = dataSkill.skills[skillName].default[j];
+            if (check == undefined) {
+                xp = dataxp.experience[j].experience_difference;
+                totalxp += xp;
+                semiPrice = lvlPrice * dataxp.experience[j].experience_difference;
+                total += semiPrice;
+            }
+            else {
+                xp = dataxp.experience[j].experience_difference;
+                totalxp += xp;
+                lvlPrice = dataSkill.skills[skillName].default[j];
+                semiPrice = lvlPrice * dataxp.experience[j].experience_difference;
+                total += semiPrice;
+            }
+        }
+        console.log("TOTAL PRICE =>  ", total);
+        console.log("TOTAL XP =>  ", totalxp);
+        // return total;
+        resp = `Total experience required: ${totalxp}. The total price of skill ${skillName} from level ${lvlStart} to level ${lvlEnd} is ${total}$`
+        return resp;
     }
-    xp = dataxp.experience[lvlStart + 1].experience_difference;
-    totalxp += xp;
-    total = lvlPrice * xp;
-    console.log("lvlPrice: ", lvlPrice);
-    console.log("xp:", xp);
-    for (let j = lvlStart + 2; j <= lvlEnd; j++) {
-        check = dataSkill.skills[skillName].default[j];
-        if (check == undefined) {
-            xp = dataxp.experience[j].experience_difference;
-            totalxp += xp;
-            semiPrice = lvlPrice * dataxp.experience[j].experience_difference;
-            total += semiPrice;
-        }
-        else {
-            xp = dataxp.experience[j].experience_difference;
-            totalxp += xp;
-            lvlPrice = dataSkill.skills[skillName].default[j];
-            semiPrice = lvlPrice * dataxp.experience[j].experience_difference;
-            total += semiPrice;
-        }
-    }
-    console.log("TOTAL PRICE =>  ", total);
-    console.log("TOTAL XP =>  ", totalxp);
-    // return total;
-    resp = `Total experience required: ${totalxp}. The total price of skill ${skillName} from level ${lvlStart} to level ${lvlEnd} is ${total}$`
-    return resp;
 };
 
 //QUEST CALCULATIONS
@@ -416,7 +468,7 @@ function quest(questName) {
         let questNames
         let name = []
         for (let i = 0; i < len; i++) {
-             questNames = questName[i].name;
+            questNames = questName[i].name;
             for (let key in qs.quest) {
                 key = key.toLowerCase();
                 questNames = questNames.toLowerCase();
@@ -429,7 +481,7 @@ function quest(questName) {
                 }
             }
         }
-        for(let i=0; i<questName.length; i++){
+        for (let i = 0; i < questName.length; i++) {
 
             string = `\n ${name[i]} cost is ${TotalPrice[i]}$. Total Price with upcharges are ${TotalPrice[i] + 0.8}$`
             strings = strings + string;
