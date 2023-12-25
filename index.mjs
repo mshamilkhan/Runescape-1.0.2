@@ -62,7 +62,7 @@ async function runCompletion(message) {
 
 
     try {
-        if (history.includes("rs3") || history.includes("agility") || history.includes("cooking") || history.includes("farming") || history.includes("attack") || history.includes("crafting") || history.includes("defence") || history.includes("construction") || history.includes("firemaking") || history.includes("fishing") || history.includes("fletching") || history.includes("herblore") || history.includes("hunter") || history.includes("magic") || history.includes("mining") || history.includes("runecrafting") || history.includes("smithing") || history.includes("strength") || history.includes("thieving") || history.includes("woodcutting") || history.includes(" black knight fortress ") ||
+        if (history.includes("rs3") ||history.includes("rs3agility") || history.includes("rs3attack")||history.includes("rs3dungeoneering")|| history.includes("agility") || history.includes("cooking") || history.includes("farming") || history.includes("attack") || history.includes("crafting") || history.includes("defence") || history.includes("construction") || history.includes("firemaking") || history.includes("fishing") || history.includes("fletching") || history.includes("herblore") || history.includes("hunter") || history.includes("magic") || history.includes("mining") || history.includes("runecrafting") || history.includes("smithing") || history.includes("strength") || history.includes("thieving") || history.includes("woodcutting") || history.includes(" black knight fortress ") ||
             history.includes("cook assistant") || history.includes("corsair curse") || history.includes("demon slayer") || history.includes("doric quest") || history.includes("dragon slayer") || history.includes("ernest the chicken") || history.includes("goblin diplomacy") || history.includes("imp catcher") || history.includes("knight sword") || history.includes("misthalin mystery") || history.includes("pirate treasure") || history.includes("prince ali rescue") || history.includes("restless ghost") ||
             history.includes("romeo & juliet") || history.includes("rune mysteries") || history.includes("below ice mountain") || history.includes("sheep shearer") || history.includes("shield of arrav") || history.includes("vampyre slayer") || history.includes("witch potion") || history.includes("x marks the spot") || history.includes("animal magnetism") || history.includes("another slice of ham") || history.includes("ascent of arceuus") || history.includes("between a rock") || history.includes("big chompy bird hunting") || history.includes("biohazard") || history.includes("bone voyage") || history.includes("cabin fever") || history.includes("client of kourend") || history.includes("clock tower") || history.includes("cold war") || history.includes("contact") || history.includes("creature of fenkenstrain") || history.includes("darkness of hallowvale") ||
             history.includes("death plateau") || history.includes("death to the dorgeshuun") || history.includes("depths of despair") || history.includes("desert treasure") || history.includes("devious minds") || history.includes("dig site") || history.includes("dragon slayer 2") || history.includes("dream mentor") || history.includes("druidic ritual") || history.includes("dwarf cannon") || history.includes("eadgar ruse") || history.includes("eagles' peak") || history.includes("elemental workshop i") || history.includes("elemental workshop ii") || history.includes("enakhra lament") || history.includes("enlightened journey") || history.includes("eyes of glouphrie") || history.includes("fairytale i - growing pains") || history.includes("fairytale ii - cure a queen") || history.includes("family crest") || history.includes("porcine of interest") || history.includes("feud") || history.includes("fight arena") || history.includes("fishing contest") || history.includes("forgettable tale") || history.includes("forsaken tower") || history.includes("fremennik exiles") || history.includes("fremennik isles") || history.includes("fremennik trials") || history.includes("garden of tranquillity") || history.includes("gertrude cat") || history.includes("ghosts ahoy") || history.includes("giant dwarf") || history.includes("grand tree") || history.includes("great brain robbery") || history.includes("grim tales") || history.includes("hand in the sand") || history.includes("haunted mine") || history.includes("mage arena II") || history.includes("mage arena") || history.includes("hazeel cult") || history.includes("heroes' quest") || history.includes("holy grail") || history.includes("horror from the deep") || history.includes("icthlarin little helper") || history.includes("in aid of the myreque") || history.includes("in search of the myreque") || history.includes("jungle potion") || history.includes("king ransom") || history.includes("kingdom divided") || history.includes("legends' quest") || history.includes("lost city") || history.includes("lost tribe") || history.includes("lunar diplomacy") || history.includes("making friends with my arm") || history.includes("making history") || history.includes("merlin crystal") || history.includes("monk friend") || history.includes("monkey madness i") || history.includes("monkey madness ii") || history.includes("mountain daughter") || history.includes("mournings' end part i") || history.includes("mourning end part ii") ||
@@ -176,9 +176,9 @@ async function runCompletion(message) {
                         console.error("Error sending message:", err);
                     });
                 }
-                else{
-                    completionResponse = "Please enter each category seperately like if you want skill level up then just ask for skills not any other item like quest or misc etc. "
-                }
+                // else{
+                    // completionResponse = "Please enter each category seperately like if you want skill level up then just ask for skills not any other item like quest or misc etc. "
+                // }
             }
         }
         else {
@@ -212,6 +212,16 @@ async function runCompletion(message) {
                     // Send a message automatically
                     channel.sendTyping().then(() => {
                         channel.send(`OpenAI billing Required`);
+                    }).catch((err) => {
+                        console.error("Error sending message:", err);
+                    });
+                
+                } else if (error.code === 'null') {
+                    console.log("Bot is trying to create long response")
+                    completionResponse = "Can you please ask some specific thing otherwise it will create a very long text beyond my capacities"
+                    // Send a message automatically
+                    channel.sendTyping().then(() => {
+                        channel.send(`Can you please ask some specific thing otherwise it will create a very long text beyond my capacities`);
                     }).catch((err) => {
                         console.error("Error sending message:", err);
                     });
@@ -359,7 +369,10 @@ client.login(process.env.BOT_TOKEN);
 async function quoteskill(skillName, lvlStart, lvlEnd) {
     // let extras = dataSkill.skills[skillName].nmz[1];
     // console.log("nmz = " , extras);
+    console.log("I am skill function running kindly wait!!!!")
+    console.log("Skill Name " , skillName)
     let resp;
+    let lvlPriceCrabs, lvlPricevpn, totalvpn, totalcrabs,semiPricevpn, semiPricecrabs,semiPricenmz;
     for (let i = lvlStart; i >= 1; i--) {
         let stlvlPrice = dataSkill.skills[skillName].default[i];
         if (stlvlPrice == undefined) {
@@ -369,6 +382,14 @@ async function quoteskill(skillName, lvlStart, lvlEnd) {
             resp = "Please message <#837416583684685864> for a quote."
             return resp;
         }
+        else if(skillName == "attack" ||skillName== "defence" || skillName== "strength"){
+            lvlPrice = dataSkill.skills[skillName].nmz[i];
+            
+            lvlPriceCrabs = dataSkill.skills[skillName].crabs[i];
+            lvlPricevpn = dataSkill.skills[skillName].nmzNoVPN[i];
+            console.log("inside the nmz function");
+            break;
+        }
         else {
             lvlPrice = dataSkill.skills[skillName].default[i];
             console.log("lvlPrice0:", lvlPrice);
@@ -377,29 +398,82 @@ async function quoteskill(skillName, lvlStart, lvlEnd) {
     }
     xp = dataxp.experience[lvlStart + 1].experience_difference;
     totalxp += xp;
-    total = lvlPrice * xp;
+    
+    if(skillName == "attack" ||skillName== "defence" || skillName== "strength"){
+        totalcrabs = lvlPriceCrabs * xp;
+        totalvpn = lvlPricevpn * xp;
+        total = lvlPrice * xp;
+    }
+    else{
+        total = lvlPrice * xp;
+    }
     console.log("lvlPrice: ", lvlPrice);
     console.log("xp:", xp);
     for (let j = lvlStart + 2; j <= lvlEnd; j++) {
-        check = dataSkill.skills[skillName].default[j];
+        if(skillName == "attack" ||skillName== "defence" || skillName== "strength"){
+
+            check = dataSkill.skills[skillName].nmz[j];
+        }
+        else{
+            
+            check = dataSkill.skills[skillName].default[j];
+        }
         if (check == undefined) {
             xp = dataxp.experience[j].experience_difference;
             totalxp += xp;
-            semiPrice = lvlPrice * dataxp.experience[j].experience_difference;
-            total += semiPrice;
+            if(skillName == "attack" ||skillName== "defence" || skillName== "strength"){
+                semiPrice = lvlPrice * dataxp.experience[j].experience_difference;
+                total += semiPrice;
+                semiPricecrabs = lvlPriceCrabs * dataxp.experience[j].experience_difference;
+                totalcrabs += semiPricecrabs;
+                semiPricevpn = lvlPricevpn * dataxp.experience[j].experience_difference;
+                totalvpn += semiPricevpn;
+
+            }
+            else{
+                semiPrice = lvlPrice * dataxp.experience[j].experience_difference;
+                total += semiPrice;
+
+            }
         }
         else {
             xp = dataxp.experience[j].experience_difference;
             totalxp += xp;
-            lvlPrice = dataSkill.skills[skillName].default[j];
-            semiPrice = lvlPrice * dataxp.experience[j].experience_difference;
-            total += semiPrice;
+            if(skillName == "attack" ||skillName== "defence" || skillName== "strength"){
+
+                lvlPrice = dataSkill.skills[skillName].nmz[j];
+                lvlPriceCrabs = dataSkill.skills[skillName].crabs[j];
+                lvlPricevpn = dataSkill.skills[skillName].nmzNoVPN[j];
+                console.log("Calculating the nmz please wait")
+
+                semiPricecrabs = lvlPriceCrabs * dataxp.experience[j].experience_difference;
+                totalcrabs += semiPricecrabs;
+                semiPricevpn = lvlPricevpn * dataxp.experience[j].experience_difference;
+                totalvpn += semiPricevpn;
+                semiPrice = lvlPrice * dataxp.experience[j].experience_difference;
+                total += semiPrice;
+            }
+            else{
+
+                lvlPrice = dataSkill.skills[skillName].default[j];
+                semiPrice = lvlPrice * dataxp.experience[j].experience_difference;
+                total += semiPrice;
+            }
         }
     }
     console.log("TOTAL PRICE =>  ", total);
     console.log("TOTAL XP =>  ", totalxp);
     // return total;
-    resp = `Total experience required: ${totalxp}. The total price of skill ${skillName} from level ${lvlStart} to level ${lvlEnd} is ${total}$`
+    if(skillName == "attack" ||skillName== "defence" || skillName== "strength"){
+
+        resp = `Total experience required: ${totalxp}. The total price of nmz skill ${skillName} from level ${lvlStart} to level ${lvlEnd} is ${total}$
+        price for crabs of skill ${skillName} is ${totalcrabs}
+   `
+    }
+    else{
+        resp = `Total experience required: ${totalxp}. The total price of skill ${skillName} from level ${lvlStart} to level ${lvlEnd} is ${total}$`
+
+    }
     return resp;
 };
 
